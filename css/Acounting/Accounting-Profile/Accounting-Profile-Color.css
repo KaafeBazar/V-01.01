@@ -1,0 +1,47 @@
+@import url(../../Pallete.css);
+/* JobBanner */
+.JobBanner  
+{
+    border-color : var(--LineColor);
+}
+/* User Img */
+.UserImg
+{
+    border-color : var(--PrimaryColor);
+    background-color : var(--WhiteColor);
+}
+/* User Img */
+.UserInfoBox input
+{
+    border-color : var(--LineColor);
+}
+/* Profile Tab */
+.ProfileTabs
+{
+    border-color : var(--TextColor);
+}
+.ProfileTabs li
+{
+    color: var(--TextColor);
+}
+
+/* Job Info Box */
+.JobInfoBox button
+{
+    background-color : var(--PrimaryColor);
+    color: var(--WhiteColor);
+    border-color : var(--PrimaryColor);
+}
+
+/*  */
+.JobInfoForm input
+{
+    background-color : var(--WhiteColor);
+    border-color:var(--LineColor);
+}
+
+.GalleryImg div ,.GalleryVideo div
+{
+    border-color:var(--LineColor);
+    color: var(--PrimaryColor);
+}
