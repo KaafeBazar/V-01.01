@@ -36,9 +36,13 @@
     {
         border-color : var(--LineColor);
     }
-    .Job-Card-User-Info h2,h3
+    .Job-Card-User-Info a , h2,h3
     {
         color : var(--BlackColor);
+    }
+    .Job-Card-User-Info  h3:hover , h4:hover
+    {
+        color:var(--PrimaryColor)
     }
     /* NewsJobTitle */
     #NewestJob_Title h2,p
@@ -73,6 +77,14 @@
     {
         background-color: var(--WhiteColor);
     }
+    .BlogCardText h3
+    {
+        color : var(--BlackColor);
+    }
+    .BlogCardText h3:hover
+    {
+        color:var(--PrimaryColor);
+    }
 /* Requset */
 .RequestSidebtn
 {
@@ -83,8 +95,24 @@
 {
     border-color : var(--LineColor)
 }
+.RequestCardText  h3
+{
+    color : var(--BlackColor);
+}
+.RequestCardText  h3:hover
+{
+    color:var(--PrimaryColor);
+}
 /* Offers */
 #Offers_Title
 {
     border-bottom-color : var(--LineColor);
+}
+footer p a
+{
+    color : var(--BlackColor);
+}
+footer a:hover
+{
+    color : var(--PrimaryColor);
 }
