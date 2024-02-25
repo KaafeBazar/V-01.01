@@ -1,0 +1,90 @@
+@import url(../Font.css);
+@import url(../Pallete.css);
+
+
+/* Banner */
+#Banner 
+{
+    border-bottom-color : var(--LineColor);
+}
+/* Categories */
+#Categories 
+{
+    border-bottom-color : var(--LineColor);
+}
+    /* Category_Title */
+    #Category_Title
+    {
+        border-bottom-color : var(--LineColor);
+    }
+    /* Category_Groups */
+    #Category_Groups > div
+    {
+        border-color:var(--PrimaryColor);
+    }
+/* NewestJobs */
+    /* NewestJobBox */
+    .Job-Card
+    {
+        border-color :var(--LineColor);
+    }   
+    .Job-Card-Text
+    {
+        background-color:var(--BackColor);
+    }
+    .Job-Card-User-Img
+    {
+        border-color : var(--LineColor);
+    }
+    .Job-Card-User-Info h2,h3
+    {
+        color : var(--BlackColor);
+    }
+    /* NewsJobTitle */
+    #NewestJob_Title h2,p
+    {
+        color : var(--BlackColor);
+    }
+/* WebLog */
+#WebLog
+{
+    border-color : var(--LineColor);
+}
+.BlogCardImg
+{
+    background-color:var(--BlackColor);
+}
+    /* WebLogTitle */
+    #WebLog_Title
+    {
+        border-color : var(--LineColor);
+    }
+    .BlogSidebtn
+    {
+        border-color : var(--LineColor);
+        background-color:var(--WhiteColor);
+    }
+    .BlogCard
+    {
+        border-color: var(--LineColor);
+    }
+
+    .BlogCardText
+    {
+        background-color: var(--WhiteColor);
+    }
+/* Requset */
+.RequestSidebtn
+{
+    background-color:var(--WhiteColor);
+    border-color : var(--LineColor);
+}
+.RequestSlide
+{
+    border-color : var(--LineColor)
+}
+/* Offers */
+#Offers_Title
+{
+    border-bottom-color : var(--LineColor);
+}
