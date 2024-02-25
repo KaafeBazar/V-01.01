@@ -1,0 +1,93 @@
+@import url(../Font.css);
+@import url(../Pallete.css);
+/* General */
+body 
+{
+    background-color:var(--WhiteColor)
+}
+.TabActive
+{
+ color:var(--PrimaryColor) !important;
+ border-bottom: 4px solid var(--PrimaryColor);
+ font-family: Vazir-Bold;  
+}
+
+/* Publick Style */
+
+/* Header  */
+header > nav
+{
+    border-bottom-color: var(--LineColor);
+}
+    /* AccountBox */
+    #AccountBox > a > button
+    {
+        background-color: transparent;
+        border-color:var(--PrimaryColor);
+        color:var(--PrimaryColor) !important;
+        transition: all 0.3s ease-in-out;
+    }
+    #AccountBox > a > button:hover
+    {
+        background-color : var(--PrimaryColor);
+        box-shadow: 7px 7px  var(--TextColor);
+        color:var(--WhiteColor)!important;
+        transition: all 0.3s ease-in-out;
+    }
+    /* RegisterBox */
+    #RegisterBox > a > button
+    {
+        background-color: var(--PrimaryColor);
+        color:var(--WhiteColor);
+        border-color:var(--PrimaryColor);
+        transition: all 0.3s ease-in-out;
+    }
+    #RegisterBox > a > button:hover
+    {
+        background-color:transparent;
+        color : var(--PrimaryColor);
+        box-shadow: 7px 7px  var(--TextColor);
+        transition: all 0.3s ease-in-out;
+    }
+    /* TabBox */
+    #TabBox > ul > li> a
+    {
+        color:var(--TextColor);
+    }
+    #TabBox > ul > li> a:hover
+    {
+        color:var(--PrimaryColor) !important;
+        font-family: Vazir-Bold;  
+    }
+    /* HeaderMain */
+    #HeaderMain
+    {
+        border-bottom-color : var(--LineColor);
+    }
+        /* LogInOutBox */
+        #LogInOutBox > button
+        {
+            background-color: transparent;
+            border-color : var(--PrimaryColor);
+            color : var(--PrimaryColor);
+        }
+        /* SearchBox */
+        #SearchBox > div > input
+        {
+            border-color : var(--LineColor);
+        }   
+        #SearchBox > a
+        {
+            color : var(--BlackColor);
+        }
+
+
+/* Footer */
+footer
+{
+   border-top-color: var(--LineColor); 
+}
+.CertificateBox
+{
+    border-bottom-color: var(--LineColor);
+}
