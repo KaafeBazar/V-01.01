@@ -1,0 +1,221 @@
+.PageHide
+{
+    display: none !important;
+}
+/*  */
+#Content
+{
+    height: 1500px;
+    margin-bottom: 50px;
+}
+
+/* JobBanner */
+.JobBanner
+{
+    width: 100%;
+    border-radius : 16px;
+    height: 350px;
+    border : 2px solid;
+}
+.JobBanner img
+{
+    width: 100%;
+    height: 100%;
+}
+/* User Img */
+.UserInfoBox
+{
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: -100px;
+}
+.UserImg
+{
+    width: 200px;
+    height: 200px;
+    border : 2px solid ;
+    margin-left: 50px;
+}
+.UserInfoBox input
+{
+    width: 250px;
+    margin-top: 20px;
+    border-radius : 16px;
+    height: 50px;
+    margin-left: 25px;
+    font-size: 18px;
+    border : 2px solid ;
+}
+/* Profile Tab */
+.ProfileTabs
+{
+    right: 24%;
+    top: 67%;
+    width: 800px;
+    height: 100px;
+    border-bottom: 2px solid;
+}
+.ProfileTabs ul
+{
+    margin-top: 25px;
+    height: 75px;
+    width: 800px;
+}
+.ProfileTabs li
+{
+    cursor: pointer;
+    font-size: 32px;
+    padding-bottom: 25px;
+    text-align: right;
+    border-bottom : 2px solid;
+    width: 400px;
+}
+/* Job Info Box */
+.JobInfoBox
+{
+    width: 95%;
+    margin-left: 2.5%;
+    height: 900px;
+}
+    /* Job Info Form */
+    .JobInfoForm
+    {
+        width: 95%;
+        margin-left: 2.5%;
+        height: 450px;  
+    }
+    .JobInfoForm input
+    {
+        border : 2px solid;
+    }
+    .JobInfoForm>div
+    {
+        height: 100%;
+    }
+    .UserPhoneNumber
+    {
+        margin-top: 25px;
+        width: 500px;
+        height: 50px;
+        margin-left: 40px;
+        border-radius: 8px;
+        font-size: 24px;
+    }   
+    .TimeOpen
+    {
+        direction: rtl;
+        width: 100%;
+        height: 70px;
+        margin-bottom: 20px;
+        padding-right: 95px;
+    }
+    .TimeOpen label
+    {
+        font-size: 18px;
+        margin-right: 10px;
+    }
+    .TimeOpen input
+    {
+        width: 175px;
+        height: 50px;
+        margin-top: 20px;
+        border-radius : 8px;
+        font-size: 24px;
+        margin-right: 10px;
+    }
+    .JobDescription
+    {
+        width: 95%;
+        height: 95%;
+        margin-top: 2.5%;
+        margin-left: 2.5%;
+        border-radius : 16px;
+        padding: 0;
+        font-size: 24px;
+    }
+    .JobSocilaMediaAddress
+    {
+        width: 500px;
+        height: 120px;
+        margin-left: 40px;
+        font-size: 18px;
+        border-radius :8px;
+    }
+    .JobAddress
+    {
+        width: 500px;
+        height: 120px;
+        margin-top: 25px;
+        margin-left: 40px;
+        font-size: 18px;
+        border-radius :8px;
+    }
+    /* Job Location */
+    .JobLocation
+    {
+        width: 95%;
+        margin-top: 20px;
+        margin-left: 2.5%;
+        height: 300px;
+        border-radius : 24px;
+    }
+    .JobLocation iframe
+    {
+        width: 100%;
+        height: 100%;
+        border-radius : 24px;
+    }
+
+.JobInfoBox button
+{
+    margin-left: 300px;
+    width: 800px;
+    height: 80px;
+    font-size: 30px;
+    margin-top: 25px;
+    border-radius : 16px
+}
+
+/* Job Gallery */
+.JobGalleryBox
+{
+    width: 95%;
+    margin-left: 2.5%;
+    height: 900px;
+}
+.GalleryImg
+{
+    width: 95%;
+    margin-left: 2.5%;
+    height: 600px;
+}
+.GalleryImg div
+{
+    border-radius : 16px;
+    border: 2px solid;
+    margin: 20px 50px;
+}
+.GalleryImg div>p
+{
+    cursor: pointer;
+    font-size: 24px;
+}
+.GalleryVideo
+{
+    width: 95%;
+    margin-left: 2.5%;
+    height: 300px;
+}
+.GalleryVideo div
+{
+    border-radius : 16px;
+    margin-top: 20px;
+    height: 250px;
+    border: 2px solid;
+}
+.GalleryVideo div>p
+{
+    cursor: pointer;
+    font-size: 24px;
+}
