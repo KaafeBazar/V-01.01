@@ -1,0 +1,34 @@
+/* Main */
+#Main
+{
+    width: 95%;
+    margin-left: 2.5%;
+    height: 1500px;
+    margin-top : 50px;
+    margin-bottom : 50px;
+}
+
+/* AccessBox */
+#AccessBox
+{
+    height: 80%;
+    margin-top: 0px;
+    padding-top: 20px;
+    direction: rtl;
+    border-radius : 16px
+}
+#AccessBox ul
+{
+    margin-top: 20px;
+    height: 600px;
+    width: 100%;
+}
+#AccessBox li
+{
+    padding-top: 10px;
+    margin-bottom: 15px;
+    padding-right:5%;  
+    height: 50px; 
+    font-size: 22px;
+    border-bottom : 2px solid;
+}
