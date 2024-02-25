@@ -1,0 +1,339 @@
+@import url(../Font.css);
+/* Banner */
+#Banner
+{
+    height: 470px;
+    border-bottom : 2px solid;
+}
+    /* BannerBox */
+    #BannerBox
+    {
+        margin: 22px 5%;
+        width: 90%;
+        height: 430px;
+        border-radius: 16px;
+    }
+    #BannerBox > img
+    {
+        width: 100%;
+        height: 100%;
+    }
+/* Categories */
+#Categories
+{
+    height: 250px;
+    border-bottom : 2px solid;  
+}
+    /* Category_Title */
+    #Category_Title
+    {
+        height: 70px;
+        border-bottom : 2px solid;  
+        padding-top: 16px;
+        direction: rtl;
+    }
+    #Category_Title > h2
+    {
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    /* Category_Groups */
+    #Category_Groups
+    {
+        width: 100%;
+        height:180px;
+        margin-top: 30px;
+    }
+    #Category_Groups > div
+    {
+        border : 1px solid;
+        width: 100px;
+        height: 100px;
+        border-radius: 8px;
+    }
+    #Category_Groups > div > a
+    {
+        width: 100px;
+        height: 100px;
+    }
+    #Category_Groups > div > h3
+    {
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 8;
+    }
+    #Category_Groups > div > a > img
+    {
+        width: 80%;
+    }
+/* NewestJobs */
+#NewestJobs
+{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+    /* NewestJobBox */
+    #NewestJob_Box
+    {
+        width: 65%;
+        height: 375px;
+    }
+    .Job-Card
+    {
+        width: 350px;
+        height: 375px;
+        margin-left: 25px;
+        border-radius : 8px
+    }
+    .Job-Card-Img
+    {
+        width: 100%;
+        height: 200px;
+        z-index: 1;
+        
+    }
+    .Job-Card-Img > img
+    {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px; 
+        width: 100%;
+        height: 100%;
+    }
+    .Job-Card-Text
+    {
+        width: 100%;
+        height: 240px;
+    }
+    .Job-Card-User-Img
+    {
+        margin-left:115px;
+        margin-top: -65px;
+        width: 125px;
+        height: 125px;
+        border: 4px solid;
+        border-radius:50%;
+        position: relative;
+    }
+    .Job-Card-User-Img > img
+    {
+        width: 125px;
+        height: 125px;
+        border-radius : 50%;
+        border : none;
+    }
+    .Job-Card-User-Info
+    {
+        margin-left: 15%;
+        margin-Right: 15%;
+        width: 70%;
+        height: 100px;
+    }
+    .Job-Card-User-Info > h3
+    {
+        margin-top:15px;
+        margin-bottom:5px;
+        font-size: 20px;
+    }
+    .Job-Card-User-Info > h4
+    {
+        margin-top:15px;
+        margin-bottom:5px;
+        font-size: 16px;
+    }
+    /* NewsJobTitle */
+    #NewestJob_Title
+    {
+        width: 25%;
+        margin-right: -100px;
+        height: 400px;
+    }
+    #NewestJob_Title > img
+    {
+        width: 170px;
+        height: 170px;
+    }
+    #NewestJob_Title > h2
+    {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 100%;
+        font-size: 60px;
+    }
+    #NewestJob_Title > p
+    {
+        font-size: 24px;
+        margin-top: 0px;
+        width: 100%;
+    }
+
+/* WebLog */
+#WebLog
+{
+    height: 550px;
+    border-bottom: 2px solid;
+}
+    /* WebLogTitle */
+    #WebLog_Title
+    {
+        width: 100%;
+        height: 75px;
+        border-bottom : 2px solid;
+    }
+    #WebLog_Title > h2
+    {
+        font-size: 36px;
+        text-align: right;
+        margin-right: 20px;
+    }
+    /* WebLogGroup */
+    #WebLog_Groups
+    {
+        width: 100%;
+        height: 500px;
+    }
+    .WebLogSlider
+    {
+        margin-top: 15px;
+        margin-left: 2.5%;
+        width: 95%;
+        height: 450px;
+    }
+    .BlogCard
+    {
+        width: 500px;
+        height: 400px;
+        border: 2px solid;
+        border-radius : 8px;
+    }
+    .BlogCardImg
+    {
+        border-radius : 8px;
+        width: 496px;
+        height: 328;
+    }
+    .BlogCardImg>img
+    {
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        border-top-left-radius : 8px;
+        border-top-right-radius : 8px;
+        border: none;
+    }
+    .BlogCardText
+    {
+        height:220px;
+        text-align: center;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    .BlogCardText > h3
+    {
+        margin-top: 10px;
+        font-size: 22px;
+    }
+
+/* Request */
+#Requests
+{
+    height: 400px;
+    padding-top: 20px;
+}
+    /* Request_Box */
+    #Request_Box
+    {
+        width: 75%;
+        height: 300px;
+        margin-top: 30px;
+    }
+    .RequestSlider
+    {
+        width: 100%;
+        height: 350px;
+    }
+    .RequestSlide
+    {
+        border-radius : 8px;
+        border : 1px solid;
+        width: 275px;
+    }
+    .RequestCardImg
+    {
+        width: 100%;
+        height: 250px;
+        border-radius : 8px;
+    }
+    .RequestCardImg > img
+    {
+        width: 100%;
+        height: 100%;
+        border: none;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        background: transparent;
+        margin: 0;
+        padding: 0;
+    }
+    .RequestCardText
+    {
+        text-align: center;
+        width: 100%;
+        height: 80px;
+        padding-top: 0;
+    }
+    .RequestCardText > h3
+    {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    /* Request_Title */
+    #Request_Title
+    {
+        width: 25%;
+        height: 350px;
+    }
+    #Request_Title > img
+    {
+        width: 170px;
+        height: 170px;
+    }
+    #Request_Title > h2
+    {
+        margin: 0;
+        width: 100%;
+        font-size: 60px;
+    }
+    #Request_Title > p
+    {
+        font-size: 24px;
+        margin-top: 0px;
+        width: 100%;
+    }
+/* OurOffers */
+#OurOffers
+{
+    height: 550px;
+}
+    /* OffersTitle */
+    #Offers_Title
+    {
+        height: 75px;
+        border-bottom : 2px solid;
+    }
+    #Offers_Title > h2
+    {
+        width: 100%;
+        text-align: right;
+    }
+    /* OfferBox */
+    #Offers_Box
+    {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 400px;
+        margin-top: 25px;
+    }
