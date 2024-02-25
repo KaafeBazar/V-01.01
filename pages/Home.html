@@ -1,0 +1,404 @@
+<html lang="fa"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-grid.rtl.min.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../css/Public/Public-Style.css">
+    <link rel="stylesheet" href="../css/Public/Public-Color.css">
+    <link rel="stylesheet" href="../css/Home/Home-Style.css">
+    <link rel="stylesheet" href="../css/Home/Home-Color.css">
+    <title>کف بازار | صفحه اصلی</title>
+</head>
+<body>
+    
+<!-- Header -->
+<header class="mycontainer d-flex flex-column">
+    <nav class="d-flex row justify-content-between">
+        <div id="AccountBox" class="d-flex row justify-content-center col-2">
+            <a href="Accounting-Empty.html">
+            <button onmouseenter="ChangeAccountIcon('In')" onmouseleave="ChangeAccountIcon('Out')" class="button d-flex row-cols-auto justify-content-center align-items-center" type="button"> پنل کاربری <i><img id="Account_icon" src="../icon/User-Blue.png" alt="User-Blue"></i></button>
+            </a>
+        </div>
+        <div id="RegisterBox" class="d-flex row justify-content-end col-4">
+            <a href="Accounting-Profile.html" class="w-50">
+                <button class="button" type="button">!کسب و کارت را ثبت کن</button>
+            </a>
+        </div>
+        <div id="TabBox" class="d-flex row-cols-auto p-0 col-4">
+            <ul class="list-unstyled d-flex row-cols-auto justify-content-between">
+                <li class="d-flex"><a href="Home.html" id="TabHome" class="TabActive" onclick="TabFocuse('Home')"> صفحه اصلی  </a></li>
+                <li class="d-flex"><a href="#" id="TabCategory" class="" onclick="TabFocuse('Category')"> دسته بندی </a></li>
+                <li class="d-flex"><a href="#" id="TabWebLog" class="" onclick="TabFocuse('WebLog')"> وب لاگ </a></li>
+                <li class="d-flex"><a href="#" id="TabTraining" class="" onclick="TabFocuse('Training')"> آموزش </a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="HeaderMain" class="d-flex row-cols-auto justify-content-between">
+        <div id="LogInOutBox" class="d-flex row col-2">
+           <button class="button d-flex row-cols-auto justify-content-center align-items-center" type="button">ورود یا ثبت نام <i><img src="../icon/login.png" alt="login"></i></button> 
+        </div>
+        <div id="SearchBox" class="d-flex flex-column justify-content-center col-6">
+            <div class="d-flex row-cols-auto justify-content-center align-items-center">
+                <p class="d-flex row-cols-auto">گلستان <i><img src="../icon/Location.png" alt="Location"></i></p>
+                <input type="search" placeholder="جستجو...">
+            </div>
+            <a href="" class="d-flex row-cols-auto align-items-center align-self-end">جستجوی پیشرفته<i><img src="../icon/Plus.png" alt="Plus" ></i></a>
+        </div>
+        <div id="LogoBox" class="d-flex flex-column">
+           <h1>
+               <a href="Home.html">
+                    <img src="../icon/LogoSite/KaffeBazarIcon-01.png" alt="KaffeBazarIcon">
+               </a> 
+           </h1> 
+        </div>
+    </div>
+</header>
+<!-- /Header -->
+
+<!-- Banner -->
+<section id="Banner" class="mycontainer d-flex row-cols-auto">
+    <div id="BannerBox" >
+        <img src="../img/Banner/BannerDefualt.png" alt="BannerDefualt">
+    </div>
+</section>
+<!-- /Banner -->
+
+<!-- Categories -->
+<section id="Categories" class="mycontainer">
+    <div id="Category_Title">
+        <h2>دسته بندی ها</h2>
+    </div>
+    <div id="Category_Groups" class="d-flex row-cols-auto justify-content-evenly">
+        <div>
+            <a href="" class="d-flex row-cols-auto justify-content-center align-items-center">
+                <img src="../icon/Categuriy/Home.png" alt="HomeWork">
+            </a>
+            <h3 class="text-center">مشاغل خانگی</h3>
+        </div>
+        <div>
+            <a href="" class="d-flex row-cols-auto justify-content-center align-items-center">
+                <img src="../icon/Categuriy/Productive.png" alt="productive">                    
+            </a>
+            <h3 class="text-center">تولیدی</h3>
+        </div>
+        <div>
+            <a href="" class="d-flex row-cols-auto justify-content-center align-items-center">
+                <img src="../icon/Categuriy/Sport.png" alt="Sport">                
+            </a>
+            <h3 class="text-center">ورزشی</h3>
+        </div>
+        <div>
+            <a href="" class="d-flex row-cols-auto justify-content-center align-items-center">
+                <img src="../icon/Categuriy/Recreational.png" alt="Recreational">
+            </a>
+            <h3 class="text-center">تفریحی</h3>
+        </div>
+        <div>
+            <a href="" class="d-flex row-cols-auto justify-content-center align-items-center">
+                <img src="../icon/Categuriy/Service.png" alt="Service">
+            </a>
+            <h3 class="text-center">خدماتی</h3>
+        </div>
+        <div>
+            <a href="" class="d-flex row-cols-auto justify-content-center align-items-center">
+                <img src="../icon/Categuriy/Treatment.png" alt="Treatment">
+            </a>
+            <h3 class="text-center">درمانی</h3>
+        </div>
+        <div>
+            <a href="" class="d-flex row-cols-auto justify-content-center align-items-center">
+                <img src="../icon/Categuriy/Offices.png" alt="Offices">
+            </a>
+            <h3 class="text-center">اداری</h3>
+        </div>
+        <div>
+            <a href="" class="d-flex row-cols-auto justify-content-center align-items-center">
+                <img src="../icon/Categuriy/Educational.png" alt="Educational">
+            </a>
+            <h3 class="text-center">آموزشی</h3>
+        </div>
+        <div>
+            <a href="" class="d-flex row-cols-auto justify-content-center align-items-center">
+                <img src="../icon/Categuriy/SuperMarket.png" alt="SuperMarket" class="fiximg">
+            </a>
+            <h3 class="text-center">سوپرمارکت</h3>
+        </div>
+        <div>
+            <a href="" class="d-flex row-cols-auto justify-content-center align-items-center">
+                <img src="../icon/Categuriy/Shop.png" alt="Shop">
+            </a>
+            <h3 class="text-center">فروشگاه</h3>
+        </div>
+        <div> 
+            <a href="" class="d-flex row-cols-auto justify-content-center align-items-center">
+                <img src="../icon/Categuriy/CaffeResturant.png" alt="CaffeResturant">
+            </a>
+            <h3 class="text-center">کافه رستوران</h3>
+        </div>
+        <div>
+            <a href="" class="d-flex row-cols-auto justify-content-center align-items-center">
+                <img src="../icon/Categuriy/Sanitary.png" alt="Sanitary">
+            </a>
+            <h3 class="text-center">بهداشتی</h3>
+        </div>
+    </div>
+</section>
+<!-- /Categories -->
+
+<!-- NewJobs -->
+<section id="NewestJobs" class="mycontainer">
+    <div id="NewestJob_Box" class="d-flex row-cols-auto justify-content-evenly align-items-start ">
+        <div class="Job-Card">
+            <div class="Job-Card-Img">
+                <img src="../img/Job/Job-img-01.png" alt="Job-img">
+            </div>
+            <div class="Job-Card-Text">
+                <div class="Job-Card-User-Img">
+                    <img src="../img/User/User-01.png" alt="UserImg">
+                </div>
+                <div class="Job-Card-User-Info">
+                    <h3 class="text-center">کارگاه چرم دوزی شیفر</h3>
+                    <h4 class="text-center">گلستان</h4>  
+                </div>
+            </div>
+        </div>
+        <div class="Job-Card">
+            <div class="Job-Card-Img">
+                <img src="../img/Job/Job-img-02.png" alt="Job-img">
+            </div>
+            <div class="Job-Card-Text">
+                <div class="Job-Card-User-Img">
+                    <img src="../img/User/User-02.png" alt="UserImg">
+                </div>
+                <div class="Job-Card-User-Info">
+                    <h3 class="text-center">فروشگاه لباس مردانه  داتیس</h3>
+                    <h4 class="text-center">گلستان</h4>
+                </div>
+            </div>
+        </div>
+        <div class="Job-Card">
+            <div class="Job-Card-Img">
+                <img src="../img/Job/Job-img-03.png" alt="Job-img">
+            </div>
+            <div class="Job-Card-Text">
+                <div class="Job-Card-User-Img">
+                    <img src="../img/User/User-03.png" alt="UserImg">
+                </div>
+                <div class="Job-Card-User-Info">
+                    <h3 class="text-center">فروشگاه لوازم ارایشی شانل</h3>
+                    <h4 class="text-center">گلستان</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="NewestJob_Title" class="d-flex flex-column justify-content-start align-items-end">
+        <img src="../icon/Newest.png" alt="Newest">
+        <h2 class="text-center">مشاغل جدید</h2>
+        <p class="text-center">به پروفایلشون سر بزن</p>
+    </div>
+</section>
+<!-- /NewJobs -->
+
+<!-- WebLog -->
+<section id="WebLog" class="mycontainer">
+    <div id="WebLog_Title">
+    <h2>وبلاگ</h2>
+    </div>
+    <div id="WebLog_Groups" class="d-flex row-cols-auto">
+        <div class="WebLogSlider mx-0 my-4 d-flex row-cols-auto justify-content-between align-items-start">
+            <div class="BlogCard d-flex flex-column mx-1">
+                <div class="BlogCardImg">
+                    <img src="../img/WebLog/WebLog-01.jpeg" alt="WebLogimg">
+                </div>
+                <div class="BlogCardText">
+                    <h3>کدوم کافه برای قرار عاشقانه بهتره؟</h3>
+                </div>
+            </div>
+            <div class="BlogCard d-flex flex-column mx-1">
+                <div class="BlogCardImg">
+                    <img src="../img/WebLog/WebLog-04.jpeg" alt="WebLogimg">
+                </div>
+                <div class="BlogCardText">
+                    <h3>تعمیرکار بیارم توی خونه؟</h3>
+                </div>
+            </div>
+            <div class="BlogCard d-flex flex-column mx-1">
+                <div class="BlogCardImg">
+                    <img src="../img/WebLog/WebLog-05.jpeg" alt="WebLogimg">
+                </div>
+                <div class="BlogCardText">
+                    <h3>چجوری معلم خصوصی انتخاب کنم؟</h3>
+                </div>  
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /WebLog -->
+
+<!-- Requests -->
+<section id="Requests" class="mycontainer d-flex row-cols-auto justify-content-evenly">
+    <div id="Request_Box" class="d-flex row-cols-auto">
+        <div class="RequestSlider d-flex row-cols-auto justify-content-between" >
+            <div class="RequestSlide">
+                <div class="RequestCardImg">
+                    <img src="../img/Request/Request-05.jpeg" alt="Request">
+                </div>
+                <div class="RequestCardText">
+                    <h3>یه پرستار برای فرزندم میخوام</h3>
+                </div>
+            </div>
+            <div class="RequestSlide">
+                <div class="RequestCardImg">
+                    <img src="../img/Request/Request-02.jpeg" alt="Request">
+                </div>
+                <div class="RequestCardText">
+                    <h3>من به پزشک نیاز دارم</h3>
+                </div>
+            </div>
+            <div class="RequestSlide">
+                <div class="RequestCardImg">
+                    <img src="../img/Request/Request-01.jpeg" alt="Request">
+                </div>
+                <div class="RequestCardText">
+                    <h3>طراح برای سفره عقد میخوام</h3>
+                </div>
+            </div>
+            <div class="RequestSlide">
+                <div class="RequestCardImg">
+                    <img src="../img/Request/Request-04.jpeg" alt="Request">
+                </div>
+                <div class="RequestCardText">
+                    <h3>چطور جوش صورت رو درمان کنم؟</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Request_Title" class="d-flex flex-column justify-content-start align-items-end">
+        <img src="../icon/Request.png" alt="Request">
+        <h2 class="text-center">درخواست ها</h2>
+        <p class="text-center"><span>!</span>اینجا کلی درخواست جدید داریم</p>
+    </div>
+</section>
+<!-- /Requests -->
+
+<!-- OurOffer -->
+<section id="OurOffers" class="mycontainer">
+    <div id="Offers_Title">
+        <h2>پیشنهادات</h2>
+    </div>
+    <div id="Offers_Box" class="mx-0 d-flex row-cols-auto justify-content-between align-items-center">
+        <div class="Job-Card">
+            <div class="Job-Card-Img">
+                <img src="../img/Job/Job-img-05.jpeg" alt="Job-img">
+            </div>
+            <div class="Job-Card-Text">
+                <div class="Job-Card-User-Img">
+                    <img src="../img/User/User-05.jpeg" alt="UserImg">
+                </div>
+                <div class="Job-Card-User-Info">
+                    <h3 class="text-center">نقاشی سیاه قلم از چهره</h3>
+                    <h4 class="text-center">گلستان</h4>  
+                </div>
+            </div>
+        </div>
+        <div class="Job-Card">
+            <div class="Job-Card-Img">
+                <img src="../img/Job/Job-img-06.jpeg" alt="Job-img">
+            </div>
+            <div class="Job-Card-Text">
+                <div class="Job-Card-User-Img">
+                    <img src="../img/User/User-06.jpeg" alt="UserImg">
+                </div>
+                <div class="Job-Card-User-Info">
+                    <h3 class="text-center">پزشک متخصص اطفال</h3>
+                    <h4 class="text-center">گلستان</h4>  
+                </div>
+            </div>
+        </div>
+        <div class="Job-Card">
+            <div class="Job-Card-Img">
+                <img src="../img/Job/Job-img-07.jpeg" alt="Job-img">
+            </div>
+            <div class="Job-Card-Text">
+                <div class="Job-Card-User-Img">
+                    <img src="../img/User/User-07.jpeg" alt="UserImg">
+                </div>
+                <div class="Job-Card-User-Info">
+                    <h3 class="text-center">فروشگاه میوه و تره بار</h3>
+                    <h4 class="text-center">گلستان</h4>  
+                </div>
+            </div>
+        </div>
+        <div class="Job-Card">
+            <div class="Job-Card-Img">
+                <img src="../img/Job/Job-img-08.jpeg" alt="Job-img">
+            </div>
+            <div class="Job-Card-Text">
+                <div class="Job-Card-User-Img">
+                    <img src="../img/User/User-08.jpeg" alt="UserImg">
+                </div>
+                <div class="Job-Card-User-Info">
+                    <h3 class="text-center">کارگاه مجسمه سازی</h3>
+                    <h4 class="text-center">گلستان</h4>  
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /OurOffer -->
+
+<!-- Footer -->
+<footer class="d-flex row-cols-auto justify-content-evenly align-items-center">
+    <div id="FooterLeft" class="d-flex flex-column justify-content-around align-items-center">
+        <div class="CertificateBox d-flex row-cols-auto align-items-center justify-content-between">
+            <div class="Certificate d-flex  row-cols-auto justify-content-center">
+                <img src="../img/Certifiate/Enamad.png" alt="Enamad">
+            </div>
+            <div class="Certificate d-flex  row-cols-auto justify-content-center">
+                <img src="../img/Certifiate/Etemad.png" alt="Etemad">
+            </div>
+            <div class="Certificate d-flex  row-cols-auto justify-content-center">
+                <img src="../img/Certifiate/samandehi.png" alt="samandehi">
+            </div>
+        </div>  
+        <div class="SocialMediaBox d-flex flex-column justify-content-center">
+            <p class="text-center">ما را در شبکه های اجتماعی دنبال کنید</p>
+            <div class="d-flex row-cols-auto justify-content-evenly">
+                <a href=""><img src="../icon/SocialMedia/aparat.png" alt="aparatLink"></a>
+                <a href=""><img src="../icon/SocialMedia/instagram.png" alt="instagramLink"></a>
+                <a href=""><img src="../icon/SocialMedia/youtube.png" alt="youtubeLink"></a>
+            </div>
+            <p class="text-center">استفاده از سایت مشروط بر قبول <span>توافقنامه کاربری</span> و <span>حفظ حریم شخصی</span> می باشد.</p>
+        </div>
+    </div>
+    <div id="FooterRight" class="d-flex flex-column align-items-center">
+        <div class="LinkBox">
+            <ul class="d-flex flex-row-reverse justify-content-around list-unstyled">
+                <li class="TabActive">صفحه اصلی</li>
+                <li>دسته بندی</li>
+                <li>وبلاگ</li>
+                <li>آموزش</li>
+            </ul>
+        </div>
+        <div class="MapBox">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1898.0431353990577!2d54.44979024266524!3d36.86365801501599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f833633d76bc3b5%3A0x61dcf80fe547b93e!2sIslamic%20Azad%20University%2C%20Gorgan%20Branch!5e0!3m2!1sen!2s!4v1706352942517!5m2!1sen!2s" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="AddressBox">
+            <p>آدرس: گلستان، گرگان، دانشگاه آزاد گرگان، ساختمان حکیم جرجانی طبقه دوم، محل استقرار مرکز رشد</p>
+        </div>
+    </div>
+</footer>
+<!-- /Footer -->
+
+</body>
+<script src="../js/jquery-3.7.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="../js/owl.carousel.min.js"></script>
+<script src="../js/Home/Home-Script.js"></script>
+</html>
