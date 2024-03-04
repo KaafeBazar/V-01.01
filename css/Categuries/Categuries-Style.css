@@ -1,0 +1,21 @@
+/* Banner */
+#Banner
+{
+    height: 600px;
+    border-bottom: 2px solid;
+}
+/* Categury */
+#Categury
+{
+    height: 150px;
+    border-bottom: 2px solid; 
+}
+#Categury a
+{
+    font-size: 30px;
+}
+#Categury img
+{
+    width: 80px;
+    height: 80px;
+}
