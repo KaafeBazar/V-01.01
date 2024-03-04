@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="../css/owl.carousel.min.css">
     <link rel="stylesheet" href="../css/owl.theme.default.min.css">
     <link rel="stylesheet" href="../css/Public/Public-Style.css">
+    <link rel="stylesheet" href="../css/Public/Public-Responsive.css">
     <link rel="stylesheet" href="../css/Public/Public-Color.css">
     <link rel="stylesheet" href="../css/Home/Home-Style.css">
+    <link rel="stylesheet" href="../css/Home/Home-Responsive.css">
     <link rel="stylesheet" href="../css/Home/Home-Color.css">
     <title>کف بازار | صفحه اصلی</title>
 </head>
@@ -19,20 +21,20 @@
 <!-- Header -->
 <header class="mycontainer d-flex flex-column">
     <nav class="d-flex row justify-content-between">
-        <div id="AccountBox" class="d-flex row justify-content-center col-2">
+        <div id="AccountBox" class="d-flex row justify-content-center col-xl-2 col-md-2">
             <a href="Accounting-Empty.html">
             <button onmouseenter="ChangeAccountIcon('In')" onmouseleave="ChangeAccountIcon('Out')" class="button d-flex row-cols-auto justify-content-center align-items-center" type="button"> پنل کاربری <i><img id="Account_icon" src="../icon/User-Blue.png" alt="User-Blue"></i></button>
             </a>
         </div>
-        <div id="RegisterBox" class="d-flex row justify-content-end col-4">
+        <div id="RegisterBox" class="d-flex row justify-content-xl-end justify-content-md-center col-xl-4 col-md-5">
             <a href="Accounting-Profile.html" class="w-50">
                 <button class="button" type="button">!کسب و کارت را ثبت کن</button>
             </a>
         </div>
-        <div id="TabBox" class="d-flex row-cols-auto p-0 col-4">
+        <div id="TabBox" class="d-flex row-cols-auto p-0 col-xl-4 col-md-5">
             <ul class="list-unstyled d-flex row-cols-auto justify-content-between">
                 <li class="d-flex"><a href="Home.html" id="TabHome" class="TabActive" onclick="TabFocuse('Home')"> صفحه اصلی  </a></li>
-                <li class="d-flex"><a href="#" id="TabCategory" class="" onclick="TabFocuse('Category')"> دسته بندی </a></li>
+                <li class="d-flex"><a href="Categuries.html" id="TabCategory" class="" onclick="TabFocuse('Category')"> دسته بندی </a></li>
                 <li class="d-flex"><a href="#" id="TabWebLog" class="" onclick="TabFocuse('WebLog')"> وب لاگ </a></li>
                 <li class="d-flex"><a href="#" id="TabTraining" class="" onclick="TabFocuse('Training')"> آموزش </a></li>
             </ul>
@@ -42,7 +44,7 @@
         <div id="LogInOutBox" class="d-flex row col-2">
            <button class="button d-flex row-cols-auto justify-content-center align-items-center" type="button">ورود یا ثبت نام <i><img src="../icon/login.png" alt="login"></i></button> 
         </div>
-        <div id="SearchBox" class="d-flex flex-column justify-content-center col-6">
+        <div id="SearchBox" class="d-flex flex-column justify-content-xl-center justify-content-md-start">
             <div class="d-flex row-cols-auto justify-content-center align-items-center">
                 <p class="d-flex row-cols-auto">گلستان <i><img src="../icon/Location.png" alt="Location"></i></p>
                 <input type="search" placeholder="جستجو...">
@@ -69,79 +71,79 @@
 <!-- /Banner -->
 
 <!-- Categories -->
-<section id="Categories" class="mycontainer">
+<section id="Categories" class="mycontainer ">
     <div id="Category_Title">
         <h2>دسته بندی ها</h2>
     </div>
     <div id="Category_Groups" class="d-flex row-cols-auto justify-content-evenly">
         <div>
-            <a href="" class="d-flex row-cols-auto justify-content-center align-items-center">
+            <a href="Categuries.html" class="d-flex row-cols-auto justify-content-center align-items-center">
                 <img src="../icon/Categuriy/Home.png" alt="HomeWork">
             </a>
             <h3 class="text-center">مشاغل خانگی</h3>
         </div>
         <div>
-            <a href="" class="d-flex row-cols-auto justify-content-center align-items-center">
+            <a href="Categuries.html" class="d-flex row-cols-auto justify-content-center align-items-center">
                 <img src="../icon/Categuriy/Productive.png" alt="productive">                    
             </a>
             <h3 class="text-center">تولیدی</h3>
         </div>
         <div>
-            <a href="" class="d-flex row-cols-auto justify-content-center align-items-center">
+            <a href="Categuries.html" class="d-flex row-cols-auto justify-content-center align-items-center">
                 <img src="../icon/Categuriy/Sport.png" alt="Sport">                
             </a>
             <h3 class="text-center">ورزشی</h3>
         </div>
         <div>
-            <a href="" class="d-flex row-cols-auto justify-content-center align-items-center">
+            <a href="Categuries.html" class="d-flex row-cols-auto justify-content-center align-items-center">
                 <img src="../icon/Categuriy/Recreational.png" alt="Recreational">
             </a>
             <h3 class="text-center">تفریحی</h3>
         </div>
         <div>
-            <a href="" class="d-flex row-cols-auto justify-content-center align-items-center">
+            <a href="Categuries.html" class="d-flex row-cols-auto justify-content-center align-items-center">
                 <img src="../icon/Categuriy/Service.png" alt="Service">
             </a>
             <h3 class="text-center">خدماتی</h3>
         </div>
         <div>
-            <a href="" class="d-flex row-cols-auto justify-content-center align-items-center">
+            <a href="Categuries.html" class="d-flex row-cols-auto justify-content-center align-items-center">
                 <img src="../icon/Categuriy/Treatment.png" alt="Treatment">
             </a>
             <h3 class="text-center">درمانی</h3>
         </div>
         <div>
-            <a href="" class="d-flex row-cols-auto justify-content-center align-items-center">
+            <a href="Categuries.html" class="d-flex row-cols-auto justify-content-center align-items-center">
                 <img src="../icon/Categuriy/Offices.png" alt="Offices">
             </a>
             <h3 class="text-center">اداری</h3>
         </div>
         <div>
-            <a href="" class="d-flex row-cols-auto justify-content-center align-items-center">
+            <a href="Categuries.html" class="d-flex row-cols-auto justify-content-center align-items-center">
                 <img src="../icon/Categuriy/Educational.png" alt="Educational">
             </a>
             <h3 class="text-center">آموزشی</h3>
         </div>
         <div>
-            <a href="" class="d-flex row-cols-auto justify-content-center align-items-center">
+            <a href="Categuries.html" class="d-flex row-cols-auto justify-content-center align-items-center">
                 <img src="../icon/Categuriy/SuperMarket.png" alt="SuperMarket" class="fiximg">
             </a>
             <h3 class="text-center">سوپرمارکت</h3>
         </div>
         <div>
-            <a href="" class="d-flex row-cols-auto justify-content-center align-items-center">
+            <a href="Categuries.html" class="d-flex row-cols-auto justify-content-center align-items-center">
                 <img src="../icon/Categuriy/Shop.png" alt="Shop">
             </a>
             <h3 class="text-center">فروشگاه</h3>
         </div>
         <div> 
-            <a href="" class="d-flex row-cols-auto justify-content-center align-items-center">
+            <a href="Categuries.html" class="d-flex row-cols-auto justify-content-center align-items-center">
                 <img src="../icon/Categuriy/CaffeResturant.png" alt="CaffeResturant">
             </a>
             <h3 class="text-center">کافه رستوران</h3>
         </div>
         <div>
-            <a href="" class="d-flex row-cols-auto justify-content-center align-items-center">
+            <a href="Categuries.html" class="d-flex row-cols-auto justify-content-center align-items-center">
                 <img src="../icon/Categuriy/Sanitary.png" alt="Sanitary">
             </a>
             <h3 class="text-center">بهداشتی</h3>
@@ -151,7 +153,7 @@
 <!-- /Categories -->
 
 <!-- NewJobs -->
-<section id="NewestJobs" class="mycontainer">
+<section id="NewestJobs" class="mycontainer d-flex row-cols-auto justify-content-evenly">
     <div id="NewestJob_Box" class="d-flex row-cols-auto justify-content-evenly align-items-start ">
         <div class="Job-Card">
             <div class="Job-Card-Img">
@@ -215,7 +217,7 @@
     <div id="WebLog_Title">
     <h2>وبلاگ</h2>
     </div>
-    <div id="WebLog_Groups" class="d-flex row-cols-auto">
+    <div id="WebLog_Groups" class="d-flex row-cols-auto justify-content-center" >
         <div class="WebLogSlider mx-0 my-4 d-flex row-cols-auto justify-content-between align-items-start">
             <div class="BlogCard d-flex flex-column mx-1">
                 <div class="BlogCardImg">
@@ -395,8 +397,8 @@
 <!-- /OurOffer -->
 
 <!-- Footer -->
-<footer class="d-flex row-cols-auto justify-content-evenly align-items-center">
-    <div id="FooterLeft" class="d-flex flex-column justify-content-around align-items-center">
+<footer class="d-flex row-cols-auto justify-content-between align-items-center align-items-md-end">
+    <div id="FooterLeft" class="d-flex flex-column justify-content-xl-around justify-content-md-end align-items-center">
         <div class="CertificateBox d-flex row-cols-auto align-items-center justify-content-between">
             <div class="Certificate d-flex  row-cols-auto justify-content-center">
                 <a href="">
@@ -424,9 +426,9 @@
             <p class="text-center">استفاده از سایت مشروط بر قبول <a href=""><span>توافقنامه کاربری</span></a> و <a href=""><span>حفظ حریم شخصی</span></a> می باشد.</p>
         </div>
     </div>
-    <div id="FooterRight" class="d-flex flex-column align-items-center">
+    <div id="FooterRight" class="d-flex flex-column align-items-center justify-content-md-end justify-content-xl-center">
         <div class="LinkBox">
-            <ul class="d-flex flex-row-reverse justify-content-around list-unstyled">
+            <ul class="d-flex flex-row-reverse justify-content-xl-between justify-content-md-around  list-unstyled">
                 <li class="TabActive">صفحه اصلی</li>
                 <li>دسته بندی</li>
                 <li>وبلاگ</li>
@@ -434,7 +436,7 @@
             </ul>
         </div>
         <div class="MapBox">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1898.0431353990577!2d54.44979024266524!3d36.86365801501599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f833633d76bc3b5%3A0x61dcf80fe547b93e!2sIslamic%20Azad%20University%2C%20Gorgan%20Branch!5e0!3m2!1sen!2s!4v1706352942517!5m2!1sen!2s" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1898.0431353990577!2d54.44979024266524!3d36.86365801501599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f833633d76bc3b5%3A0x61dcf80fe547b93e!2sIslamic%20Azad%20University%2C%20Gorgan%20Branch!5e0!3m2!1sen!2s!4v1706352942517!5m2!1sen!2s"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="AddressBox">
             <p>آدرس: گلستان، گرگان، دانشگاه آزاد گرگان، ساختمان حکیم جرجانی طبقه دوم، محل استقرار مرکز رشد</p>
