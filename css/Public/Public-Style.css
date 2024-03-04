@@ -29,7 +29,7 @@ header > nav
     border-bottom: 2px solid;
 }
    /* AccountBox */
-    #AccountBox >a > button
+    #AccountBox > a > button
     {
         width: 144px;
         height: 59px;
@@ -117,7 +117,7 @@ header > nav
             padding-top: 10px;
             font-size: 32px;
         }
-        #SearchBox > div >p > i
+        #SearchBox > div > p > i
         {
             cursor: pointer;
         }
@@ -196,6 +196,10 @@ footer
             margin-left: 20%;
             margin-right: 20%;
         }
+        .SocialMediaBox p
+        {
+            font-size: 22px;
+        }
         .SocialMediaBox > div > a > img
         {
             width: 75px;
@@ -225,6 +229,7 @@ footer
     }
     .LinkBox > ul > li
     {
+        font-size: 22px;
         margin-top: 0;
         cursor: pointer;
     }
@@ -236,12 +241,15 @@ footer
     }
     .MapBox > iframe
     {
+        width: 100%;
+        height: 100%;
         border-radius: 8px;
+        border: none;
     }
     .AddressBox
     {
         margin-top: 20px;
         width: 90%;
         text-align: right;
-        font-size: 18px;
+        font-size: 20px;
     }
