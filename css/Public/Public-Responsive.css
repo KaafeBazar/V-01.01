@@ -1,0 +1,186 @@
+@media (max-width:1440px) /*Laptop*/
+{
+    .mycontainer
+    {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    /* SearchBox */
+    #SearchBox > a
+    {
+        margin-right: 0px;
+    }
+    /* Footer */
+    footer
+    {
+        height: 420px;
+    }
+    #FooterLeft
+    {
+        padding-top: 20px;
+        width: 50%;
+    }
+    .CertificateBox , .SocialMediaBox
+    {
+        width: 70%;
+    }
+    .Certificate 
+    {
+        width: 25%;
+    }
+    .Certificate  img
+    {
+        height: 80%;
+    }
+    .SocialMediaBox > div > a > img
+    {
+        width: 70px;
+        margin-bottom: 10px;
+    }
+    .SocialMediaBox p
+    {
+        font-size: 16px;
+    }
+    #FooterRight
+    {
+        padding-top: 20px;
+        width: 50%;
+    }
+    
+    .MapBox
+    {
+        width: 500px;
+        height: 270px;
+    }
+    .MapBox > iframe
+    {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width : 1024px)
+{
+    .mycontainer
+    {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    /* Header */
+    header 
+    {
+        height: 220px;
+    }
+    header > nav
+    {
+     height: 80px;
+    }
+    #AccountBox > a > button
+    {
+        width: 130px;
+        height: 48px;
+    }
+    #RegisterBox > a > button
+    {
+        width: 199px;
+        height: 48px;
+    }
+    #TabBox > ul
+    {
+        font-size:16px;
+    }
+    #TabBox > ul > li> a
+    {
+        height: 48px;
+    }
+    /* HeaderMain */
+    #HeaderMain
+    {
+        height: 140px;
+    }
+    #HeaderMain > div
+    {
+        height: 120px;
+    }
+    #LogInOutBox > button
+    {
+        width:160px;
+        height: 48px;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    #SearchBox > div >p
+    {
+        margin-top: 40px;
+        padding-top: 0px;
+        font-size: 28px;
+    }
+    #SearchBox > div > input    
+    {
+        width: 300px;
+        height: 48px;
+        margin-top: 20px;
+    }
+    #SearchBox > a
+    {
+        margin-right: 10px;
+    }
+    #LogoBox
+    {
+        height: 48px;
+    }
+    /* Footer */
+    footer
+    {
+        width: 97% !important;  
+        margin-left: 1.5% !important;
+        margin-right: 1.5% !important;
+        height: 350px;
+    }
+    .CertificateBox
+    {
+        height: 120px;
+    }
+    .Certificate 
+    {
+        width: 20%;
+    }
+    .Certificate  img
+    {
+        height: 90%;
+    }
+    .SocialMediaBox > div > a > img
+    {
+        width: 50px;
+        margin-bottom: 10px;
+    }
+    .SocialMediaBox p
+    {
+        font-size: 14px;
+    }
+    #FooterRight
+    {
+        padding-top: 20px;
+        width: 50%;
+    }
+    .LinkBox li
+    {
+        font-size: 16px;
+    }
+    .MapBox
+    {
+        width: 400px;
+        height: 200px;
+    }
+    .MapBox > iframe
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .AddressBox p
+    {
+        margin-right: 20px;
+        font-size: 16px;
+    } 
+}
