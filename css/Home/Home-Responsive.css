@@ -1,0 +1,383 @@
+@media (max-width: 2560px) 
+{
+    /* NewestJobs */
+    #NewestJob_Title > img
+    {
+        width: 40%;
+        height: auto;
+        margin-right: 2vw;
+    }
+    #NewestJob_Title > h2
+    {
+        font-size: 50px;
+    }
+    /* NewestJobBox */
+    .Job-Card
+    {
+        width: 35%;
+    }
+    .Job-Card-User-Img
+    {
+        margin-left:31%;
+    }
+    .Job-Card-User-Img > img
+    {
+        width: 102%;
+        margin-left: -1%;
+        margin-top: -1%;
+    }
+    .Job-Card-User-Info  h3
+    {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .Job-Card-User-Info  h4
+    {
+        width: 100%;
+        font-size: 16px;
+    }
+    /* weblog */
+    .BlogCard
+    {
+        width: 32%;
+    }
+    /* Request */
+    .RequestSlide
+    {
+        width: 24%;
+    }
+    #Request_Title > img
+    {
+        width: 40%;
+        height: auto;
+        margin-right: 2vw;
+    }
+    #Request_Title > h2
+    {
+        font-size: 50px;
+    }
+    #Request_Title > p
+    {
+        font-size: 24px;
+    }
+    /* Offers_Box */
+    #Offers_Box > .Job-Card
+    {
+        width: 25%;
+    }
+}
+
+@media (max-width:1440px) /*Laptop*/
+{
+    /* Banner */
+    #Banner
+    {
+        height: 420px;
+    }
+    #BannerBox
+    {
+        margin: 20px 7.5%;
+        width: 85%;
+        height: 380px;
+    }
+    /* Categories */
+    #Categories
+    {
+        height: 230px;
+    }
+    #Category_Groups > div
+    {
+        width: 90px;
+        height: 90px;
+    }
+    #Category_Groups > div > a
+    {
+        width: 90px;
+        height: 90px;
+    }
+    /* NewestJobs */
+    #NewestJobs
+    {
+        height: 380px;
+    }
+    .Job-Card
+    {
+        width: 35%;
+        height: 320px; 
+    }
+    .Job-Card-Img
+    {
+        height: 200px;
+    }
+    .Job-Card-Text
+    {
+        height: 200px;
+    }
+    .Job-Card-User-Img
+    {
+        margin-left:31%;
+        width: 100px;
+        height: 100px;
+    }
+    .Job-Card-User-Img > img
+    {
+        margin-left: -1%;
+        margin-top: -1%;
+        width: 95px;
+        height: 95px;
+    }
+    .Job-Card-User-Info
+    {
+        height: 80px;
+    }
+    /* WebLog */
+    #WebLog
+    {
+        height: 470px;
+    }
+    #WebLog_Title
+    {
+        height: 60px;
+    }
+    #WebLog_Groups
+    {
+        height: 400px;
+    }
+    .BlogCard
+    {
+        width: 32%;
+        height: 350px;
+    }
+    .BlogCardImg
+    {
+        height: 280px;
+    }
+    .BlogCardText
+    {
+        height: 100px;
+    }
+    /* Request */
+    #Requests
+    {
+        height: 360px;
+    }
+    #Request_Box
+    {
+        height: 300px;
+        margin-top: 30px;
+    }
+    .RequestSlider
+    {
+        height: 280px;
+    }
+    .RequestSlide
+    {
+        width: 24%;
+        height: 270px;
+    }
+    .RequestCardImg
+    {
+        height: 200px;
+    }
+    .RequestCardText
+    {
+        height: 50px;
+    }
+    .RequestCardText  h3
+    {
+        font-size: 17px;
+    }
+    /* OurOffers */
+    #OurOffers
+    {
+        height: 450px;
+    }
+    #Offers_Title
+    {
+        height: 50px;
+    }
+    #Offers_Box
+    {
+        height: 350px;
+    }
+}
+
+@media (max-width : 1024px)
+{
+    /* Banner */
+    #Banner
+    {
+        height: 380px;
+    }
+    #BannerBox
+    {
+        margin: 15px 5%;
+        width: 90%;
+        height: 350px;
+    }
+    /* Categories */
+    #Category_Groups > div
+    {
+        width: 70px;
+        height: 70px;
+    }
+    #Category_Groups > div > a
+    {
+        width: 70px;
+        height: 70px;
+    }
+    /* NewestJobs */
+    #NewestJobs
+    {
+        height: 300px;
+    }
+    .Job-Card
+    {
+        width: 35%;
+        height: 320px; 
+    }
+    .Job-Card-Img
+    {
+        height: 150px;
+    }
+    .Job-Card-Text
+    {
+        height: 170px;
+    }
+    .Job-Card-User-Img
+    {
+        margin-left:31%;
+        margin-top: -45px;
+        width: 80px;
+        height: 80px;
+    }
+    .Job-Card-User-Img > img
+    {
+        margin-left: -1%;
+        margin-top: -1%;
+        width: 75px;
+        height: 75px;
+    }
+    .Job-Card-User-Info h3
+    {
+       font-size: 18px;
+    }
+    .Job-Card-User-Info  h4
+    {
+        font-size: 14px;
+    }
+    /* NewsJobTitle */
+    #NewestJob_Title
+    {
+        margin-right: -50px;
+        height: 300px;
+    }
+    #NewestJob_Title > img
+    {
+        width: 100px;
+        height: 100px;
+    }
+    #NewestJob_Title > h2
+    {
+        font-size: 40px;
+    }
+    #NewestJob_Title > p
+    {
+        font-size: 20px;
+    }
+    /* WebLog */
+    #WebLog
+    {
+        height: 400px;
+    }
+    #WebLog_Title
+    {
+        height: 60px;
+    }
+    #WebLog_Groups
+    {
+        height: 400px;
+    }
+    .BlogCard
+    {
+        width: 32%;
+        height: 270px;
+    }
+    .BlogCardImg
+    {
+        height: 200px;
+    }
+    .BlogCardText
+    {
+        height: 50px;
+    }
+    .BlogCardText h3
+    {
+        font-size: 20px;
+    }
+    /* Request */
+    #Requests
+    {
+        height: 300px;
+    }
+    #Request_Box
+    {
+        height: 300px;
+        margin-top: 30px;
+    }
+    .RequestSlider
+    {
+        height: 230px;
+    }
+    .RequestSlide
+    {
+        width: 24%;
+        height: 220px;
+    }
+    .RequestCardImg
+    {
+        height: 150px;
+    }
+    .RequestCardText
+    {
+        height: 50px;
+    }
+    .RequestCardText  h3
+    {
+        font-size: 15px;
+    }
+    /* RequestTitle */
+    #Request_Title
+    {
+        margin-right: 0px;
+        height: 300px;
+    }
+    #Request_Title > img
+    {
+        width: 100px;
+        height: 100px;
+    }
+    #Request_Title > h2
+    {
+        font-size: 40px;
+    }
+    #Request_Title > p
+    {
+        font-size: 18px;
+    }
+    /* OurOffers */
+    #OurOffers
+    {
+        height: 400px;
+    }
+    #Offers_Title
+    {
+        height: 50px;
+    }
+    #Offers_Box
+    {
+        height: 350px;
+    }
+}
+
