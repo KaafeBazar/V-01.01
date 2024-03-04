@@ -63,11 +63,14 @@
 <section id="Main" class="d-flex row">
     <!-- Content -->
     <section id="Content" class="col-10">
+        <!-- JobInfo -->
+        <div id="JobProfilePage" class="position-absolute ">
             <div class="JobBanner">
-                <img src="" alt="JobBanner img" class="img-fluid">
+                <img src="../img/Banner/JobDefaultBanner.png" alt="JobBanner img" class="img-fluid">
             </div>
             <div class="UserInfoBox d-flex flex-column">
-                <img class="img-fluid UserImg rounded-circle" src="" alt="User Img">
+                <img class="img-fluid UserImg rounded-circle" src="../img/Banner/NullBanner.png" alt="User Img">
+                <p class="text-center position-absolute flex-wrap">اینجا عکس خودت رو وارد کن</p>
                 <input class="text-center" type="text" placeholder="اسم کسب و کارت رو اینجا بنویس">
             </div>
             <div class="ProfileTabs position-absolute">
@@ -101,45 +104,197 @@
             <!-- Job Gallery -->
             <div id="JobGalleryPage" class="JobGalleryBox PageHide">
                 <div class="GalleryImg d-flex row justify-content-center">
-                    <div class="col-3 d-flex align-items-center justify-content-center">
-                        <p class="text-center">آپلود عکس</p>
+                    <div class="col-3 d-flex align-items-center p-0 justify-content-center">
+                        <img src="../img/Banner/NullBanner.png" class="img-fluid w-100 h-100 m-0 " alt="">
+                        <p class="text-center position-absolute">آپلود عکس</p>
                     </div>
-                    <div class="col-3 d-flex align-items-center justify-content-center">
-                        <p class="text-center">آپلود عکس</p>
+                    <div class="col-3 d-flex align-items-center p-0 justify-content-center">
+                        <img src="../img/Banner/NullBanner.png" class="img-fluid w-100 h-100 m-0 " alt="">
+                        <p class="text-center position-absolute">آپلود عکس</p>
                     </div>
-                    <div class="col-3 d-flex align-items-center justify-content-center">
-                        <p class="text-center">آپلود عکس</p>
+                    <div class="col-3 d-flex align-items-center p-0 justify-content-center">
+                        <img src="../img/Banner/NullBanner.png" class="img-fluid w-100 h-100 m-0 " alt="">
+                        <p class="text-center position-absolute">آپلود عکس</p>
                     </div>
-                    <div class="col-3 d-flex align-items-center justify-content-center">
-                        <p class="text-center">آپلود عکس</p>
+                    <div class="col-3 d-flex align-items-center p-0 justify-content-center">
+                        <img src="../img/Banner/NullBanner.png" class="img-fluid w-100 h-100 m-0 " alt="">
+                        <p class="text-center position-absolute">آپلود عکس</p>
                     </div>
-                    <div class="col-3 d-flex align-items-center justify-content-center">
-                        <p class="text-center">آپلود عکس</p>
+                    <div class="col-3 d-flex align-items-center p-0 justify-content-center">
+                        <img src="../img/Banner/NullBanner.png" class="img-fluid w-100 h-100 m-0 " alt="">
+                        <p class="text-center position-absolute">آپلود عکس</p>
                     </div>
-                    <div class="col-3 d-flex align-items-center justify-content-center">
-                        <p class="text-center">آپلود عکس</p>
+                    <div class="col-3 d-flex align-items-center p-0 justify-content-center">
+                        <img src="../img/Banner/NullBanner.png" class="img-fluid w-100 h-100 m-0 " alt="">
+                        <p class="text-center position-absolute">آپلود عکس</p>
                     </div>
                 </div>
                 <div class="GalleryVideo d-flex row justify-content-center">
-                    <div class="col-4 offset-3  d-flex align-items-center justify-content-center">
-                        <p class="text-center">آپلود فیلم</p>
+                    <div class="col-3 d-flex align-items-center p-0 justify-content-center">
+                        <img src="../img/Banner/NullBanner.png" class="img-fluid w-100 h-100 m-0 " alt="">
+                        <p class="text-center position-absolute">آپلود فیلم</p>
                     </div>
                 </div>
             </div>
             <!-- /Job Gallery -->
+        </div>
+        <!-- /JobInfo -->
+
+        <!-- UserInfo -->
+        <div id="UserInfoPage" class="d-flex flex-column position-absolute PageHide ">
+            <div id="UserInformation" class="d-flex row p-5">
+                <div class="col-6 d-flex row-cols-auto justify-content-around align-items-center p-3  TopLeft">
+                    <label for="LastName">نام خانوادگی : </label>
+                    <input type="text" name="LastName" placeholder=".....">                    
+                    <label for="LastName"> <img src="" alt="Edite"> </label>
+                </div>
+                <div class="col-6 d-flex row-cols-auto justify-content-around align-items-center p-3  TopRight">
+                    <label for="FirstName">نام : </label>
+                    <input type="text" name="FirstName" placeholder=".....">                    
+                    <label for="FirstName"> <img src="" alt="Edite"> </label>
+                </div>
+                <div class="col-6 d-flex row-cols-auto justify-content-around align-items-center p-3 ">
+                    <label for="CodeMeli">کد ملی: </label>
+                    <input type="text" name="CodeMeli" placeholder=".....">                    
+                    <label for="CodeMeli"> <img src="" alt="Edite"> </label>
+                </div>
+                <div class="col-6 d-flex row-cols-auto justify-content-around align-items-center p-3 ">
+                    <label for="PhoneNumber">شماره تماس: </label>
+                    <input type="text" name="PhoneNumber" placeholder=".....">                    
+                    <label for="PhoneNumber"> <img src="" alt="Edite"> </label>
+                </div>
+                <div class="col-6 d-flex row-cols-auto justify-content-around align-items-center p-3  BottomLeft">
+                    <label for="PassWord">رمز عبور: </label>
+                    <input type="password" name="LastName" placeholder=".....">                    
+                    <label for="PassWord"> <img src="" alt="Edite"> </label>
+                </div>
+                <div class="col-6 d-flex row-cols-auto justify-content-around align-items-center p-3  BottomRight">
+                    <label for="BirthDate">تاریخ تولد: </label>
+                    <input class="text-center" type="date" name="BirthDate">                    
+                    <label for="BirthDate"> <img src="" alt="Edite"> </label>
+                </div>
+            </div>
+            <div id="UserCertificate">
+                <p class="text-center">برای ثبت مجوز های کاری خود دکمه زیر را انتخاب کنید</p>
+                <button class="position-absolute text-center" type="button">ثبت مجوز</button>
+            </div>
+        </div>
+        <!-- /UserInfo -->
+        
+        <!-- Notification -->
+        <div id="NotificationPage" class="position-absolute d-flex flex-column p-5 PageHide">
+            <div class="Notif d-flex row">
+                <div class="Notif-content col-11">
+                    <a href=""> 
+                        <h3>اینجا موضوع اعلان نوشته میشود.</h3>
+                    </a> 
+                    <p>اینجا یه توضیح مختصر از اعلان قرار داده میشود.</p>
+                </div>
+                <div class="Notif-Img col-1"></div>
+            </div>
+            <div class="Notif d-flex row">
+                <div class="Notif-content col-11">
+                    <a href=""> 
+                        <h3>اینجا موضوع اعلان نوشته میشود.</h3>
+                    </a> 
+                    <p>اینجا یه توضیح مختصر از اعلان قرار داده میشود.</p>
+                </div>
+                <div class="Notif-Img col-1"></div>
+            </div>
+            <div class="Notif d-flex row">
+                <div class="Notif-content col-11">
+                    <a href=""> 
+                        <h3>اینجا موضوع اعلان نوشته میشود.</h3>
+                    </a> 
+                    <p>اینجا یه توضیح مختصر از اعلان قرار داده میشود.</p>
+                </div>
+                <div class="Notif-Img col-1"></div>
+            </div>
+            <div class="Notif d-flex row">
+                <div class="Notif-content col-11">
+                    <a href=""> 
+                        <h3>اینجا موضوع اعلان نوشته میشود.</h3>
+                    </a> 
+                    <p>اینجا یه توضیح مختصر از اعلان قرار داده میشود.</p>
+                </div>
+                <div class="Notif-Img col-1"></div>
+            </div>
+            <div class="Notif d-flex row">
+                <div class="Notif-content col-11">
+                    <a href=""> 
+                        <h3>اینجا موضوع اعلان نوشته میشود.</h3>
+                    </a> 
+                    <p>اینجا یه توضیح مختصر از اعلان قرار داده میشود.</p>
+                </div>
+                <div class="Notif-Img col-1"></div>
+            </div>
+        </div>  
+        <!-- /Notification -->
+
+        <!-- Academy -->
+        <div id="AcademyPage" class="position-absolute PageHide">
+            
+        </div>
+        <!-- /Academy -->
+
+        <!-- Permium -->
+        <div id="PermiumPage" class="position-absolute PageHide">
+            <div class="d-flex row-cols-auto flex-row-reverse justify-content-around mx-0 px-0">
+                <div class="PermiumCard d-flex flex-column align-items-center">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <p class="PermiumDay pd-30 text-center">30</p>
+                        <p class="PermiumLenth text-center">اشتراک 30 روزه</p>
+                        <p class="PermiumPrice text-center">قیمت : 100 هزارتومان</p>
+                    </div>
+                    <button type="button">انتخاب</button>
+                </div>
+                <div class="PermiumCard d-flex flex-column align-items-center">
+                    <div class="PermiumFocuse d-flex flex-column justify-content-center align-items-center">
+                        <p class="PermiumDay pd-60 text-center">60</p>
+                        <p class="PermiumLenth text-center">اشتراک 60 روزه</p>
+                        <p class="PermiumPrice text-center">قیمت : 195 هزارتومان</p>
+                    </div>
+                    <button type="button">انتخاب</button>
+                </div>
+                <div class="PermiumCard d-flex flex-column align-items-center">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <p class="PermiumDay pd-90 text-center">90</p>
+                        <p class="PermiumLenth text-center">اشتراک 90 روزه</p>
+                        <p class="PermiumPrice text-center">قیمت : 385 هزارتومان</p>
+                    </div>
+                    <button type="button">انتخاب</button>
+                </div>
+            </div>
+            <div class="Payment d-flex flex-column justify-content-center align-items-center">
+                <button type="button">پرداخت</button>
+            </div>
+        </div>
+        <!-- /Permium -->
+
+        <!-- Setting -->
+        <div id="SettingPage" class="position-absolute PageHide">
+
+        </div>
+        <!-- /Setting -->
+
+        <!-- LogOut -->
+        <div id="LogOutPage" class="position-absolute PageHide">
+            
+        </div>
+        <!-- /LogOut -->
     </section>
     <!-- /Content -->
     <!-- AccessBox -->
     <section id="AccessBox" class="col-2">
         <h2>پنل کاربری</h2>
         <ul class="d-flex flex-column list-unstyled">
-            <li><a href="" class="active">پروفایل کسب و کار</a></li>
-            <li><a href="">اطلاعات کاربری</a></li>
-            <li><a href="">اعلانات</a></li>
-            <li><a href="">آموزش</a></li>
-            <li><a href="">خرید اشتراک</a></li>
-            <li><a href="">تنظیمات</a></li>
-            <li><a href="">خروج</a></li>
+            <li><a onclick="ChangeAccountContent('JobProfile')" id="JobProfileTab" href="#" class="active">پروفایل کسب و کار</a></li>
+            <li><a onclick="ChangeAccountContent('UserInfo')" id="UserInfoTab" href="#" class="">اطلاعات کاربری</a></li>
+            <li><a onclick="ChangeAccountContent('Notification')" id="NotificationTab" href="#" class="">اعلانات</a></li>
+            <li><a onclick="ChangeAccountContent('Academy')" id="AcademyTab" href="#" class="">آموزش</a></li>
+            <li><a onclick="ChangeAccountContent('Permium')" id="PermiumTab" href="#" class="">خرید اشتراک</a></li>
+            <li><a onclick="ChangeAccountContent('Setting')" id="SettingTab" href="#" class="">تنظیمات</a></li>
+            <li><a onclick="ChangeAccountContent('LogOut')" id="LogOutTab" href="#" class="">خروج</a></li>
         </ul>
     </section>
     <!-- /AccessBox -->
