@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <title>کف بازار | لیست محتوا</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-grid.rtl.min.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../css/Public/Public-Style.css">
+    <link rel="stylesheet" href="../css/Public/Public-Color.css">
+    <link rel="stylesheet" href="../css/Content/Content-Style.css">
+    <link rel="stylesheet" href="../css/Content/Content-Color.css">
+</head>
+<body>
+<!-- Header -->
+<header class="mycontainer d-flex flex-column">
+    <nav class="d-flex row justify-content-between">
+        <div id="AccountBox" class="d-flex row justify-content-center col-2">
+            <a href="Accounting-Empty.html">
+            <button onmouseenter="ChangeAccountIcon('In')" onmouseleave="ChangeAccountIcon('Out')" class="button d-flex row-cols-auto justify-content-center align-items-center" type="button"> پنل کاربری <i><img id="Account_icon" src="../icon/User-Blue.png" alt="User-Blue"></i></button>
+            </a>
+        </div>
+        <div id="RegisterBox" class="d-flex row justify-content-end col-4">
+            <a href="Accounting-Profile.html" class="w-50">
+                <button class="button" type="button">!کسب و کارت را ثبت کن</button>
+            </a>
+        </div>
+        <div id="TabBox" class="d-flex row-cols-auto p-0 col-4">
+            <ul class="list-unstyled d-flex row-cols-auto justify-content-between">
+                <li class="d-flex"><a href="Home.html" id="TabHome" class="TabActive" onclick="TabFocuse('Home')"> صفحه اصلی  </a></li>
+                <li class="d-flex"><a href="Categuries.html" id="TabCategory" class="" onclick="TabFocuse('Category')"> دسته بندی </a></li>
+                <li class="d-flex"><a href="#" id="TabWebLog" class="" onclick="TabFocuse('WebLog')"> وب لاگ </a></li>
+                <li class="d-flex"><a href="#" id="TabTraining" class="" onclick="TabFocuse('Training')"> آموزش </a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="HeaderMain" class="d-flex row-cols-auto justify-content-between">
+        <div id="LogInOutBox" class="d-flex row col-2">
+           <button class="button d-flex row-cols-auto justify-content-center align-items-center" type="button">ورود یا ثبت نام <i><img src="../icon/login.png" alt="login"></i></button> 
+        </div>
+        <div id="SearchBox" class="d-flex flex-column justify-content-center col-6">
+            <div class="d-flex row-cols-auto justify-content-center align-items-center">
+                <p class="d-flex row-cols-auto">گلستان <i><img src="../icon/Location.png" alt="Location"></i></p>
+                <input type="search" placeholder="جستجو...">
+            </div>
+            <a href="" class="d-flex row-cols-auto align-items-center align-self-end">جستجوی پیشرفته<i><img src="../icon/Plus.png" alt="Plus" ></i></a>
+        </div>
+        <div id="LogoBox" class="d-flex flex-column">
+           <h1>
+               <a href="Home.html">
+                    <img src="../icon/LogoSite/KaffeBazarIcon-01.png" alt="KaffeBazarIcon">
+               </a> 
+           </h1> 
+        </div>
+    </div>
+</header>
+<!-- /Header -->
+
+<!-- Content -->
+<section id="Content" class="mycontainer d-flex row-cols-auto flex-row-reverse">
+    <div class="ContetnFilter col-2 px-3">
+        <div class="d-flex row-cols-auto flex-row-reverse justify-content-between">        
+            <h2 class="pt-2">فیلتر</h2>
+            <p class="text-center pt-3">پاکسازی</p>
+        </div>
+        <div>
+            <ul class="list-unstyled d-flex flex-column w-100">
+                <li class="w-100">
+                    <h2>مجوز ها</h2>     
+                </li>
+                <li class="w-100">
+                    <h2>خدمات</h2>    
+                </li>
+                <li class="w-100">
+                    <h2>نوع فعالیت</h2>    
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="ContentBox col-10 d-flex flex-column">
+        <div class="ContentBoxFilter d-flex row-cols-auto flex-row-reverse align-items-center">
+            <p class="mx-5 mt-2"> : مرتب سازی</p>
+            <ul class="d-flex row-cols-auto flex-row-reverse list-unstyled justify-content-around w-50 mx-5 mt-2 align-items-center">
+                <li>پیشنهادات</li>
+                <li>نزدیک ترین</li>
+                <li>جدید ترین</li>
+                <li>قدیمی ترین</li>
+                <li>پرطرفدار ترین</li>
+            </ul>
+        </div>
+        <div class="d-flex row justify-content-evenly flex-row-reverse">
+            <div class="ContentCard">
+                <div class="Content-Card-Img">
+                    <img src="../img/Job/Job-img-01.png" alt="Job-img">
+                </div>
+                <div class="Content-Card-Text">
+                    <div class="Content-Card-User-Img">
+                        <img src="../img/User/User-01.png" alt="UserImg">
+                    </div>
+                    <div class="Content-Card-User-Info">
+                        <a href="">
+                            <h3 class="text-center">کارگاه چرم دوزی شیفر</h3>
+                            <h4 class="text-center">گلستان</h4> 
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="ContentCard">
+                <div class="Content-Card-Img">
+                    <img src="../img/Job/Job-img-01.png" alt="Job-img">
+                </div>
+                <div class="Content-Card-Text">
+                    <div class="Content-Card-User-Img">
+                        <img src="../img/User/User-01.png" alt="UserImg">
+                    </div>
+                    <div class="Content-Card-User-Info">
+                        <a href="">
+                            <h3 class="text-center">کارگاه چرم دوزی شیفر</h3>
+                            <h4 class="text-center">گلستان</h4> 
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="ContentCard">
+                <div class="Content-Card-Img">
+                    <img src="../img/Job/Job-img-01.png" alt="Job-img">
+                </div>
+                <div class="Content-Card-Text">
+                    <div class="Content-Card-User-Img">
+                        <img src="../img/User/User-01.png" alt="UserImg">
+                    </div>
+                    <div class="Content-Card-User-Info">
+                        <a href="">
+                            <h3 class="text-center">کارگاه چرم دوزی شیفر</h3>
+                            <h4 class="text-center">گلستان</h4> 
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="ContentCard">
+                <div class="Content-Card-Img">
+                    <img src="../img/Job/Job-img-01.png" alt="Job-img">
+                </div>
+                <div class="Content-Card-Text">
+                    <div class="Content-Card-User-Img">
+                        <img src="../img/User/User-01.png" alt="UserImg">
+                    </div>
+                    <div class="Content-Card-User-Info">
+                        <a href="">
+                            <h3 class="text-center">کارگاه چرم دوزی شیفر</h3>
+                            <h4 class="text-center">گلستان</h4> 
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="ContentCard">
+                <div class="Content-Card-Img">
+                    <img src="../img/Job/Job-img-01.png" alt="Job-img">
+                </div>
+                <div class="Content-Card-Text">
+                    <div class="Content-Card-User-Img">
+                        <img src="../img/User/User-01.png" alt="UserImg">
+                    </div>
+                    <div class="Content-Card-User-Info">
+                        <a href="">
+                            <h3 class="text-center">کارگاه چرم دوزی شیفر</h3>
+                            <h4 class="text-center">گلستان</h4> 
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="ContentCard">
+                <div class="Content-Card-Img">
+                    <img src="../img/Job/Job-img-01.png" alt="Job-img">
+                </div>
+                <div class="Content-Card-Text">
+                    <div class="Content-Card-User-Img">
+                        <img src="../img/User/User-01.png" alt="UserImg">
+                    </div>
+                    <div class="Content-Card-User-Info">
+                        <a href="">
+                            <h3 class="text-center">کارگاه چرم دوزی شیفر</h3>
+                            <h4 class="text-center">گلستان</h4> 
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /Content -->
+
+<!-- Footer -->
+<footer class="d-flex row-cols-auto justify-content-evenly align-items-center">
+    <div id="FooterLeft" class="d-flex flex-column justify-content-around align-items-center">
+        <div class="CertificateBox d-flex row-cols-auto align-items-center justify-content-between">
+            <div class="Certificate d-flex  row-cols-auto justify-content-center">
+                <a href="">
+                    <img src="../img/Certifiate/Enamad.png" alt="Enamad">
+                </a>
+            </div>
+            <div class="Certificate d-flex  row-cols-auto justify-content-center">
+                <a href="">
+                    <img src="../img/Certifiate/Etemad.png" alt="Etemad">
+                </a>
+            </div>
+            <div class="Certificate d-flex  row-cols-auto justify-content-center">
+                <a href="">
+                    <img src="../img/Certifiate/samandehi.png" alt="samandehi">
+                </a>
+            </div>
+        </div>  
+        <div class="SocialMediaBox d-flex flex-column justify-content-center">
+            <p class="text-center">ما را در شبکه های اجتماعی دنبال کنید</p>
+            <div class="d-flex row-cols-auto justify-content-evenly">
+                <a href=""><img src="../icon/SocialMedia/aparat.png" alt="aparatLink"></a>
+                <a href=""><img src="../icon/SocialMedia/instagram.png" alt="instagramLink"></a>
+                <a href=""><img src="../icon/SocialMedia/youtube.png" alt="youtubeLink"></a>
+            </div>
+            <p class="text-center">استفاده از سایت مشروط بر قبول <a href=""><span>توافقنامه کاربری</span></a> و <a href=""><span>حفظ حریم شخصی</span></a> می باشد.</p>
+        </div>
+    </div>
+    <div id="FooterRight" class="d-flex flex-column align-items-center">
+        <div class="LinkBox">
+            <ul class="d-flex flex-row-reverse justify-content-around list-unstyled">
+                <li class="TabActive">صفحه اصلی</li>
+                <li>دسته بندی</li>
+                <li>وبلاگ</li>
+                <li>آموزش</li>
+            </ul>
+        </div>
+        <div class="MapBox">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1898.0431353990577!2d54.44979024266524!3d36.86365801501599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f833633d76bc3b5%3A0x61dcf80fe547b93e!2sIslamic%20Azad%20University%2C%20Gorgan%20Branch!5e0!3m2!1sen!2s!4v1706352942517!5m2!1sen!2s" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="AddressBox">
+            <p>آدرس: گلستان، گرگان، دانشگاه آزاد گرگان، ساختمان حکیم جرجانی طبقه دوم، محل استقرار مرکز رشد</p>
+        </div>
+    </div>
+</footer>
+<!-- /Footer -->
+</body>
+<script src="../js/jquery-3.7.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="../js/owl.carousel.min.js"></script>
+</html>
