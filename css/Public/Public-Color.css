@@ -1,97 +1,99 @@
-@import url(../Font.css);
-@import url(../Pallete.css);
-/* General */
+@import url(../Tools/Pallete.css);
+@import url(../Tools/Font.css);
+
+/* Public */
 body 
 {
-    background-color:var(--WhiteColor)
+    background-color:var(--BackColor);
+}
+.Line
+{
+    border-color: var(--LineColor);
 }
 .TabActive
 {
- color:var(--PrimaryColor) !important;
- border-bottom: 4px solid var(--PrimaryColor);
- font-family: Vazir-Bold;  
+ border-color : var(--PrimaryColor);
+ color : var(--PrimaryColor) !important;   
 }
-
-/* Publick Style */
-
-/* Header  */
-header > nav
+/* Header Nav */
+#AccountBox button
 {
-    border-bottom-color: var(--LineColor);
+    background-color : var(--BackColor);
+    color: var(--PrimaryColor);
+    border-color :var(--PrimaryColor);
 }
-    /* AccountBox */
-    #AccountBox > a > button
-    {
-        background-color: transparent;
-        border-color:var(--PrimaryColor);
-        color:var(--PrimaryColor) !important;
-        transition: all 0.3s ease-in-out;
-    }
-    #AccountBox > a > button:hover
-    {
-        background-color : var(--PrimaryColor);
-        box-shadow: 7px 7px  var(--TextColor);
-        color:var(--WhiteColor)!important;
-        transition: all 0.3s ease-in-out;
-    }
-    /* RegisterBox */
-    #RegisterBox > a > button
-    {
-        background-color: var(--PrimaryColor);
-        color:var(--WhiteColor);
-        border-color:var(--PrimaryColor);
-        transition: all 0.3s ease-in-out;
-    }
-    #RegisterBox > a > button:hover
-    {
-        background-color:transparent;
-        color : var(--PrimaryColor);
-        box-shadow: 7px 7px  var(--TextColor);
-        transition: all 0.3s ease-in-out;
-    }
-    /* TabBox */
-    #TabBox > ul > li> a
-    {
-        color:var(--TextColor);
-    }
-    #TabBox > ul > li> a:hover
-    {
-        color:var(--PrimaryColor) !important;
-        font-family: Vazir-Bold;  
-    }
-    /* HeaderMain */
-    #HeaderMain
-    {
-        border-bottom-color : var(--LineColor);
-    }
-        /* LogInOutBox */
-        #LogInOutBox > button
-        {
-            background-color: transparent;
-            border-color : var(--PrimaryColor);
-            color : var(--PrimaryColor);
-        }
-        /* SearchBox */
-        #SearchBox > div > input
-        {
-            border-color : var(--LineColor);
-        }   
-        #SearchBox > a
-        {
-            color : var(--BlackColor);
-        }
+#AccountBox button:hover
+{
+    background-color : var(--PrimaryColor);
+    color: var(--WhiteColor);
+}
 
+#AddJobBox button
+{
+    background-color : var(--PrimaryColor);
+    color: var(--WhiteColor);
+    border-color :var(--PrimaryColor);
+}
+#AddJobBox button:hover
+{
+    background-color : var(--BackColor);
+    color: var(--PrimaryColor);
+    border-color :var(--PrimaryColor);
+}
+#TabBox a
+{
+    color : var(--TextColor);
+}
+/* Header Div */
+#LogInOutBox button
+{
+    background-color : var(--BackColor);
+    color: var(--PrimaryColor);
+    border-color :var(--PrimaryColor);
+}
+#SearchBox>div p
+{
+    color : var(--BlackColor);
+}
+#SearchBox>div input
+{
+    direction: rtl;
+    background-color : var(--BackColor);
+    color: var(--TextColor);
+    border-color : var(--LineColor);
+}
+#SearchBox > a
+{
+    color : var(--BlackColor);
+}
 
 /* Footer */
+.SocialMedia p
+{
+    color: var(--BlackColor);
+}
+.SocialMedia a
+{
+    color : var(--BlackColor);
+}
 footer
 {
-   border-top-color: var(--LineColor); 
+    border-color:var(--LineColor);
 }
-.CertificateBox
+footer ul
 {
-    border-bottom-color: var(--LineColor);
+    height: 80px;
 }
-.SocialMediaBox a
+footer li a
 {
-    color:var(--BlackColor);
+    color : var(--TextColor);
+}
+footer li a:hover
+{
+    color : var(--PrimaryColor);
+}
+footer>div>p
+{
+    height: 60px;
+    font-size: 24px;
 }
