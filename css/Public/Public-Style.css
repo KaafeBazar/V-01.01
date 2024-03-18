@@ -1,255 +1,139 @@
-@import url(../Font.css);
-/* General Style */
-body
+@import url(../Tools/Font.css);
+/* Public */
+.myContainer
 {
-    padding: 0 !important;
-    margin: 0 !important;
-    width: 100% !important;
+    width: 70%!important;
+    margin-left: 15%!important;
+    margin-right: 15%!important;
 }
-.mycontainer
+.Line
 {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    border-bottom : 3px solid ;
 }
-
-/* Public Style */
-
-/* Header */
-header 
+.TabActive
 {
-    height: 250px;
+   border-bottom :5px solid ;    
 }
+.h-23
+{
+    height: 23%;
+}
+.h-48
+{
+    height: 48%;
+}
+.h-46
+{
+    height: 46%;
+}
+.h-38
+{
+    height: 38%;
+}
+.ShowMe
+{
+    border: 1px solid black;
+}
+input
+{
+    outline: none !important;   
+}
+/* Header Nav */
 header > nav
 {
-    width: 100%;
-    height: 88px;
-    margin-left: 0%!important;
-    padding-top: 16px;
-    border-bottom: 2px solid;
+    height: 110px;
 }
-   /* AccountBox */
-    #AccountBox > a > button
-    {
-        width: 144px;
-        height: 59px;
-        border-radius: 8px;
-        font-size: 16px;
-    }
-    #AccountBox > a > button > i > img
-    {
-        margin-left: 8px;
-        width: 26px;
-        height: 30px;
-    }
-    /* RegisterBox */
-    #RegisterBox > a > button
-    {
-        width: 199px;
-        height: 59px;
-        border-radius: 8px;
-        font-size: 16px;
-    }
-    /* TabBox */
-    #TabBox
-    {
-        direction: rtl;
-    }
-    #TabBox > ul
-    {
-        width: 100%;
-        height: 56px;
-        padding: 0;
-        margin-top: 16px;
-        font-size:20px;
-    }
-    #TabBox > ul > li> a
-    {
-        height: 56px;
-    }
-    /* HeaderMain */
-    #HeaderMain
-    {
-        width: 100%;
-        height: 172px;
-        border-bottom : 2px solid;
-    }
-    #HeaderMain > div
-    {
-        margin-top: 16px;
-        height: 156px;
-    }
-        /* LogInOutBox */
-        #LogInOutBox 
-        {
-            width: 20%;
-            padding-left: 60px; 
-        }
-        #LogInOutBox > button
-        {
-            width:173;
-            height: 59px;
-            margin-top: 40px;
-            border-radius : 8px;
-        }
-        #LogInOutBox > button > i > img
-        {
-            width: 24px;
-        }
-        /* SearchBox */
-        #SearchBox > div
-        {
-            height: 60px;
-        }
-        #SearchBox > div > input
-        {
-            direction: rtl;
-            font-size: 16px;
-            width: 506px;
-            height: 56px;
-            padding-right: 15px;
-            border-radius :8px;
-            border: 1px solid;
-        }
-        #SearchBox > div >p
-        {
-            margin-right: 10px;
-            padding-top: 10px;
-            font-size: 32px;
-        }
-        #SearchBox > div > p > i
-        {
-            cursor: pointer;
-        }
-        #SearchBox > div >p > i > img
-        {
-            margin-top: -5px;
-            width: 48px;
-            height: 48px;
-        }
-        #SearchBox > a
-        {
-            margin-top: 10px;
-            margin-right: 50px;
-        }
-        #SearchBox > a > i > img
-        {
-            margin-left: 10px;
-            width: 20px;
-            height: 20px;
-        }
-        /* LogoBox */
-        #LogoBox
-        {
-            width: 20%;
-            height: 59px;
-        }
-        #LogoBox > h1
-        {
-            margin: 0;
-        }
-        #LogoBox > h1 > a > img
-        {
-            margin-top: 25px;
-            width: 100%;
-            height: auto;
-        }
+/* Account Box */
+#AccountBox button
+{
+    width: 200px;
+    height: 75px;
+    font-size: 24px;
+    border: 3px solid ;
+    border-radius : 16px;
+}
+#AccountBox img
+{
+    width: 40px;
+    height: 40px;
+}
+/* AddJob Box*/
+#AddJobBox button
+{
+    width: 350px;
+    height: 75px;
+    font-size: 24px;
+    border: 3px solid ;
+    border-radius : 16px;
+}
+/* Tab Box */
+#TabBox li
+{
+    font-size: 24px;
+}
+
+header>div
+{
+   height: 220px; 
+}
+/* LogInOut Box */
+#LogInOutBox button
+{
+    width: 250px;
+    height: 75px;
+    font-size: 24px;
+    border: 3px solid ;
+    border-radius: 16px;
+}
+#LogInOutBox img
+{
+    width: 30px;
+    height: 30px;
+}
+/* SearchBox */
+#SearchBox>div img
+{
+    height: 60px;
+    width: 60px;
+}
+#SearchBox>div p
+{
+    font-size: 40px;
+}
+#SearchBox>div input
+{
+    height: 60px;
+    border-radius : 8px;
+    border: 3px solid;
+}
+#SearchBox > a img
+{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+#SearchBox > a
+{
+    font-size: 20px;
+}
 
 /* Footer */
 footer
 {
-    width: 90% !important;  
-    margin-left: 5% !important;
-    margin-right: 5% !important;
+    border-top:3px solid;
     height: 500px;
-    border-top: 2px solid;
 }
-    /* FooterLeft */
-    #FooterLeft
-    {
-        width: 55%;
-        height: 450px;
-    }  
-        .CertificateBox , .SocialMediaBox
-        {
-            width: 80%;
-            height: 45%;
-        }
-        .CertificateBox
-        {
-            border-bottom : 2px solid;
-        }
-        .Certificate 
-        {
-            width: 32%;
-            height: 90%;
-        }
-        .Certificate  img
-        {
-            border: none;
-            width: auto;
-            height: 100%;
-        }
-        .SocialMediaBox > div 
-        {
-            width: 60%;
-            margin-left: 20%;
-            margin-right: 20%;
-        }
-        .SocialMediaBox p
-        {
-            font-size: 22px;
-        }
-        .SocialMediaBox > div > a > img
-        {
-            width: 75px;
-            height: auto;
-        }
-        .SocialMediaBox span
-        {
-            cursor: pointer;
-            text-decoration:underline;
-        }
-    /* FooterRight */
-    #FooterRight
-    {
-        width: 35%;
-        height: 450px;
-    }
-    .LinkBox
-    {
-        width: 90%;
-        height: 50px;
-        padding-top: 0px;
-    }
-    .LinkBox > ul
-    {
-        font-size: 18px;
-        margin-top: 10px;
-    }
-    .LinkBox > ul > li
-    {
-        font-size: 22px;
-        margin-top: 0;
-        cursor: pointer;
-    }
-
-    .MapBox
-    {
-        width: 600px;
-        height: 300px;
-    }
-    .MapBox > iframe
-    {
-        width: 100%;
-        height: 100%;
-        border-radius: 8px;
-        border: none;
-    }
-    .AddressBox
-    {
-        margin-top: 20px;
-        width: 90%;
-        text-align: right;
-        font-size: 20px;
-    }
+.SocialMedia p
+{
+    font-size: 24px;
+}
+.SocialMedia a
+{
+    font-size: 26;
+    text-decoration: underline;
+    font-weight: 900;
+}
+footer li a
+{
+    font-size: 24px;
+}
