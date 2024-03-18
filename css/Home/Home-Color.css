@@ -1,118 +1,57 @@
-@import url(../Font.css);
-@import url(../Pallete.css);
-
-
-/* Banner */
-#Banner 
-{
-    border-bottom-color : var(--LineColor);
-}
+@import url(../Tools/Pallete.css);
+@import url(../Tools/Font.css);
 /* Categories */
-#Categories 
+#CategoriesBox .Category
 {
-    border-bottom-color : var(--LineColor);
+    border-color : var(--PrimaryColor);
 }
-    /* Category_Title */
-    #Category_Title
-    {
-        border-bottom-color : var(--LineColor);
-    }
-    /* Category_Groups */
-    #Category_Groups > div
-    {
-        border-color:var(--PrimaryColor);
-    }
-/* NewestJobs */
-    /* NewestJobBox */
-    .Job-Card
-    {
-        border-color :var(--LineColor);
-    }   
-    .Job-Card-Text
-    {
-        background-color:var(--BackColor);
-    }
-    .Job-Card-User-Img
-    {
-        border-color : var(--LineColor);
-    }
-    .Job-Card-User-Info a , h2,h3
-    {
-        color : var(--BlackColor);
-    }
-    .Job-Card-User-Info  h3:hover , h4:hover
-    {
-        color:var(--PrimaryColor)
-    }
-    /* NewsJobTitle */
-    #NewestJob_Title h2,p
-    {
-        color : var(--BlackColor);
-    }
-/* WebLog */
-#WebLog
+#CategoriesBox h3
 {
-    border-color : var(--LineColor);
+    color : var(--BlackColor);
 }
-.BlogCardImg
+/* Newest Job */
+.JobCard-Info , .JobCard-Img
 {
-    background-color:var(--BlackColor);
+    border-color:var(--LineColor);
 }
-    /* WebLogTitle */
-    #WebLog_Title
-    {
-        border-color : var(--LineColor);
-    }
-    .BlogSidebtn
-    {
-        border-color : var(--LineColor);
-        background-color:var(--WhiteColor);
-    }
-    .BlogCard
-    {
-        border-color: var(--LineColor);
-    }
+.Jobcard-UserImg
+{
+    border-color:var(--SecondaryColor);
+    background-color : var(--BackColor);
+}
 
-    .BlogCardText
-    {
-        background-color: var(--WhiteColor);
-    }
-    .BlogCardText h3
-    {
-        color : var(--BlackColor);
-    }
-    .BlogCardText h3:hover
-    {
-        color:var(--PrimaryColor);
-    }
-/* Requset */
-.RequestSidebtn
-{
-    background-color:var(--WhiteColor);
-    border-color : var(--LineColor);
-}
-.RequestSlide
-{
-    border-color : var(--LineColor)
-}
-.RequestCardText  h3
+.JobCard-Text h3
 {
     color : var(--BlackColor);
 }
-.RequestCardText  h3:hover
+.JobCard-Text p
 {
-    color:var(--PrimaryColor);
+    color : var(--TextColor);
 }
-/* Offers */
-#Offers_Title
+/* WebLog */
+.WeblogCard
 {
-    border-bottom-color : var(--LineColor);
+    border-color:var(--LineColor);
 }
-footer p a
+.WebLog-Info h3
 {
     color : var(--BlackColor);
 }
-footer a:hover
+
+/* Request */
+.RequestCard
 {
-    color : var(--PrimaryColor);
+    border-color :var(--LineColor);
+}
+.RequestInfo h3
+{
+    color : var(--BlackColor);
+}
+#RequestTitle h3
+{
+    color : var(--BlackColor);
+}
+#RequestTitle p
+{
+    color : var(--TextColor);
 }
