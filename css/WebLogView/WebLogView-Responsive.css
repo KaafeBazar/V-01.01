@@ -1,0 +1,61 @@
+@import url(../Tools/Font.css);
+
+@media (max-width: 1880px) /*PC*/
+{
+#WebLogInfo
+{
+    margin-top: -90px;
+    height: 350px;
+}
+.AoutherImg
+{
+    width: 150px;
+    height: 150px;
+}
+.WebLogInfo h1 
+{
+    font-size: 26px;
+}
+.WebLogInfo h2 
+{
+    font-size: 20px;
+}
+#Tags p
+{
+   font-size: 24px; 
+}
+#Tags span
+{
+    font-size: 20px;
+}
+}
+
+@media (max-width: 1024px) /*PC*/
+{
+#WebLogInfo
+{
+    margin-top: -90px;
+    height: 350px;
+}
+.AoutherImg
+{
+    width: 150px;
+    height: 150px;
+}
+.WebLogInfo h1 
+{
+    font-size: 20px;
+}
+.WebLogInfo h2 
+{
+    font-size: 18px;
+}
+#Tags p
+{
+   font-size: 20px; 
+}
+#Tags span
+{
+    font-size: 14px;
+}
+}
