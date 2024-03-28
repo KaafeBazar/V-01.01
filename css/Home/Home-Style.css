@@ -9,13 +9,22 @@
 {
     height: 120px;
 }
-#CategoriesTitle h2
-{
-    font-size: 40px;
-}
+
 #CategoriesBox
 {
     height: 250px;
+}
+.fix-home-ca
+{
+    padding: 16px 0px;
+}
+.fix-cafee-ca
+{
+    padding: 16px 0px;
+}
+.fix-shop-ca
+{
+    padding: 16px 0px; 
 }
 #CategoriesBox .Category
 {
@@ -74,7 +83,7 @@
 {
     font-size: 18px;
 }
-#NewstJobTitle h3
+#NewstJobTitle h2
 {
     font-size: 70px;
 }
@@ -134,7 +143,7 @@ font-size: 22px;
     border-top-left-radius : 8px;
     border-top-Right-radius : 8px; 
 }
-#RequestTitle h3
+#RequestTitle h2
 {
     cursor: pointer;
     font-size: 70px;
@@ -144,7 +153,7 @@ font-size: 22px;
     cursor: pointer;
     font-size: 22px;
 }
-#RequestInfo h3
+.RequestInfo h3
 {
     cursor: pointer;
     font-size: 30px;
