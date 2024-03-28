@@ -40,15 +40,21 @@
     height: 1000px;
 }
     /* Gallery */
-    .SideImage>div
-    {
-        height: 340px;
-        border-radius : 16px;
-        border:3px solid;
-    }
     .CenterVideo>div
     {
         height: 500px;
+        border-radius : 16px;
+        border:3px solid;
+    }
+    .SideImage div
+    {
+        height: 31%;
+        border-radius : 16px;
+        border:3px solid;
+    }
+    .CenterVideo div
+    {
+        height: 48%;
         border-radius : 16px;
         border:3px solid;
     }
@@ -67,6 +73,6 @@
     }
     .SocilaMediaLink a
     {
-        font-size: 26px;
+        font-size: 24px;
 
     }
