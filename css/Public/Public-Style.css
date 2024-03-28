@@ -137,6 +137,11 @@ footer li a
 {
     font-size: 24px;
 }
+.Address
+{
+    margin-top: 25px;
+    direction: rtl;
+}
 iframe
 {
     width: 100%;
