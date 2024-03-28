@@ -13,27 +13,29 @@
         <link rel="stylesheet" href="../css/Tools/owl.theme.default.min.css">
         <!-- Home layout Style -->
         <link rel="stylesheet" href="../css/Home/Home-Style.css">
+        <link rel="stylesheet" href="../css/Home/Home-Responsive.css">
         <link rel="stylesheet" href="../css/Home/Home-Color.css">
         <!-- Public Layout Style -->
         <link rel="stylesheet" href="../css/Public/Public-Style.css">
+        <link rel="stylesheet" href="../css/Public/Public-Responsive.css">
         <link rel="stylesheet" href="../css/Public/Public-Color.css">
     </head>
     <body>
         <!-- Header -->
         <header class="myContainer d-flex flex-column">
             <!-- Nav -->
-                <nav class="d-flex row w-100 Line">
-                    <div id="AccountBox" class="col-3 h-100 d-flex justify-content-center align-items-center ">
+                <nav class="d-flex row m-0 w-100 Line">
+                    <div id="AccountBox" class="col-lg-3 col-md-3 col-3 h-100 d-flex justify-content-center align-items-center ">
                             <a href="Accounting.html">
                                 <button onmouseenter="ChangeAccountIcon('In')" onmouseleave="ChangeAccountIcon('Out')" type="button">پنل کاربری <img id="Account_icon" src="../icon/User-Blue.png" alt="User Default Image"> </button>
                             </a>
                     </div>
-                    <div id="AddJobBox" class="col-4 h-100 d-flex justify-content-center align-items-center  ">
+                    <div id="AddJobBox" class="col-lg-4 col-md-3 col-3 h-100 d-flex justify-content-center align-items-center  ">
                             <a href="Accounting.html">
                                 <button type="button"> ! کسب و کارت را ثبت کن</button>
                             </a> 
                     </div>
-                    <div id="TabBox" class="col-5 h-100 d-flex p-0">
+                    <div id="TabBox" class="col-lg-5 col-md-6 col-6 h-100 d-flex p-0">
                             <ul class="list-unstyled h-100 w-100 d-flex row-cols-auto flex-row-reverse justify-content-between">
                                 <li class="d-flex h-100 align-items-end"><a href="Home.html" id="TabHome" class="h-100 d-flex align-items-center " onclick="TabFocuse('Home')"> صفحه اصلی  </a></li>
                                 <li class="d-flex h-100 align-items-end"><a href="Categories.html" id="TabCategory" class="h-100 d-flex align-items-center TabActive" onclick="TabFocuse('Category')"> دسته بندی </a></li>
@@ -44,20 +46,20 @@
                     </div>
                 </nav>
             <!-- /Nav -->
-            <div  class="d-flex row w-100  Line">
-                    <div id="LogInOutBox" class="d-flex row col-3 p-0 m-0 align-items-center justify-content-center ">
-                        <a href="" class="w-auto">
+            <div  class="d-flex row m-0 w-100  Line">
+                    <div id="LogInOutBox" class="d-flex row col-3 col-md-3 p-0 m-0 align-items-center justify-content-center ">
+                        <a href="Accounting.html" class="w-auto">
                             <button type="button"> ورود یا ثبت نام <img src="../icon/login.png" alt="Login LogOut Image"> </button>
                         </a>
                     </div>
-                    <div id="SearchBox" class="d-flex flex-column col-6 justify-content-center align-items-center ">
+                    <div id="SearchBox" class="d-flex flex-column col-6 col-md-6 justify-content-center align-items-end ">
                         <div class="d-flex row w-100 justify-content-center align-items-center">
                             <p class="d-flex row-cols-auto justify-content-end align-items-center col-3 ">گلستان <i><img src="../icon/Location.png" alt="Location"></i></p>
                             <input class="col-7 " type="search" placeholder="جستجو...">
                         </div>
-                        <a href="" class="w-75 d-flex row-cols-auto justify-content-end ">جستجوی پیشرفته<i><img src="../icon/Plus.png" alt="Plus" ></i></a>
+                        <a href="Accounting.html" class="w-75 d-flex row-cols-auto justify-content-end ">جستجوی پیشرفته<i><img src="../icon/Plus.png" alt="Plus" ></i></a>
                     </div>
-                    <div id="LogoBox" class="d-flex justify-content-center align-items-center col-3 ">
+                    <div id="LogoBox" class="d-flex justify-content-center align-items-center col-3 col-md-3 ">
                        <h1>
                            <a href="Home.html">
                                 <img class="img-fluid w-auto h-75" src="../icon/LogoSite/KaffeBazarIcon-01.png" alt="KaffeBazarIcon">
@@ -168,11 +170,11 @@
                 </a>
             </div>
             <div id="NewstJobTitle" class="d-flex flex-column  col-3 h-100 p-0">
-                <div class="w-100 h-50 d-flex p-5 flex-column justify-content-end align-items-end">
+                <div class="w-100 h-50 d-flex p-3 flex-column justify-content-end align-items-end">
                     <img class="img-fluid w-auto h-100" src="../icon/Newest.png" alt="NewstJobTitle Image">
                 </div>
                 <div class="w-100 h-50 d-flex flex-column justify-content-start align-items-center">
-                    <h3>مشاغل جدید</h3>
+                    <h2>مشاغل جدید</h2>
                     <p>به پروفایلشون سر بزن</p>
                 </div>
             </div>    
@@ -276,11 +278,11 @@
                 </div>
             </div>
             <div id="RequestTitle" class="d-flex flex-column col-3 h-100">
-                <div class="w-100 h-50 d-flex p-5 flex-column justify-content-end align-items-end">
+                <div class="w-100 h-50 d-flex p-3 flex-column justify-content-end align-items-end">
                     <img class="img-fluid w-auto h-100" src="../icon/Request.png" alt="RequestTitle Image">
                 </div>
                 <a href="RequestList.html" class="w-100 h-25 d-flex flex-column justify-content-start align-items-center">
-                    <h3>درخواست ها</h3>
+                    <h2>درخواست ها</h2>
                     <p>اینجا کلی درخواست جدید داریم</p>
                 </a>
             </div>
@@ -362,7 +364,7 @@
         <!-- Footer -->
         <footer class="myContainer d-flex row">
             <div class="col-6 h-100 d-flex flex-column align-items-center ">
-                <div class="Certificate py-4 w-75 h-50 d-flex row justify-content-center align-items-start Line">
+                <div class="Certificate py-4 col-12 h-50 d-flex row justify-content-center align-items-start Line">
                     <div class="col-4 h-100 d-flex flex-column justify-content-center align-items-center">
                         <img class="img-fluid h-100" src="../img/Certifiate/Enamad.png" alt="">
                     </div>
@@ -373,29 +375,29 @@
                         <img class="img-fluid h-100" src="../img/Certifiate/samandehi.png" alt="">
                     </div>
                 </div>
-                <div class="SocialMedia w-100 h-50 d-flex flex-column align-items-center justify-content-between">
+                <div class="SocialMedia col-12 h-50 d-flex flex-column align-items-center justify-content-between">
                     <p>ما را در شبکه های اجتماعی دنبال کنبد</p>
                     <div class="d-flex row justify-content-center align-items-center">
-                        <img class="col-2 h-auto img-fluid" src="../icon/SocialMedia/instagram.png" alt="SocialMedia">
-                        <img class="col-2 h-auto img-fluid" src="../icon/SocialMedia/aparat.png" alt="SocialMedia">
-                        <img class="col-2 h-auto img-fluid" src="../icon/SocialMedia/youtube.png" alt="SocialMedia">
+                        <img class="col-2 mx-1 h-auto img-fluid" src="../icon/SocialMedia/instagram.png" alt="SocialMedia">
+                        <img class="col-2 mx-1 h-auto img-fluid" src="../icon/SocialMedia/aparat.png" alt="SocialMedia">
+                        <img class="col-2 mx-1 h-auto img-fluid" src="../icon/SocialMedia/youtube.png" alt="SocialMedia">
                     </div>
                     <p class="text-center"> .استفاده از سایت مشروط بر پذیرش <a href=""> توافق نامه کاربری</a> و <a href=""> حفظ حریم شخصی </a> است</p>
                 </div>
                 <div></div>
             </div>
             <div class="col-6 h-100 d-flex flex-column align-items-center ">
-                <ul class="list-unstyled w-75 d-flex row-cols-auto flex-row-reverse justify-content-between ">
+                <ul class="list-unstyled col-lg-10 col-md-12 d-flex row-cols-auto flex-row-reverse justify-content-between ">
                     <li class="d-flex h-100 align-items-end"><a href="Home.html" class="h-100 d-flex align-items-center " > صفحه اصلی  </a></li>
                     <li class="d-flex h-100 align-items-end"><a href="Categories.html" class="h-100 d-flex align-items-center " > دسته بندی </a></li>
                     <li class="d-flex h-100 align-items-end"><a href="WebLogList.html" class="h-100 d-flex align-items-center " > وب لاگ </a></li>
                     <li class="d-flex h-100 align-items-end"><a href="CourseList.html" class="h-100 d-flex align-items-center " > آموزش </a></li>
                     <li class="d-flex h-100 align-items-end"><a href="#" class="h-100 d-flex align-items-center " > درباره ما </a></li>
                 </ul>
-                <div class="w-75 h-75 d-flex flex-column justify-content-center align-items-center rounded-4">
+                <div class="col-lg-10 col-md-12 h-50 d-flex flex-column justify-content-center align-items-center rounded-4">
                     <iframe class="rounded-4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1898.0431353990577!2d54.44979024266524!3d36.86365801501599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f833633d76bc3b5%3A0x61dcf80fe547b93e!2sIslamic%20Azad%20University%2C%20Gorgan%20Branch!5e0!3m2!1sen!2s!4v1706352942517!5m2!1sen!2s"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <p class="w-75 d-flex align-items-center justify-content-center">آدرس : گلستان ، گرگان ، دانشگاه آزاد اسلامی گرگان ، مرکز رشد</p>
+                <p class="Address col-lg-10 col-md-12 d-flex align-items-center justify-content-center">آدرس : گلستان ، گرگان ، دانشگاه آزاد اسلامی گرگان ، مرکز رشد</p>
             </div>
         </footer>
         <!-- /Footer -->
