@@ -8,8 +8,16 @@
     margin-left: 10%!important;
     margin-right: 10%!important;
 }
+#MainHeader
+{
+    display: block;
+}
+#MobileHeader
+{
+    display: none;
+}
 /* Header Nav */
-header > nav
+#MainHeader > nav
 {
     height: 100px;
 }
@@ -43,7 +51,7 @@ header > nav
     font-size: 20px;
 }
 /* Header Div */
-header>div
+#MainHeader>div
 {
    height: 180px; 
 }
@@ -93,8 +101,16 @@ footer li a
 
 @media (max-width:1440px) /*LapTop L*/
 {
+#MainHeader
+{
+    display: block;
+}
+#MobileHeader
+{
+    display: none;
+}
 /* Header Nav */
-header > nav
+#MainHeader > nav
 {
     height: 90px;
 }
@@ -127,7 +143,7 @@ header > nav
     font-size: 19px;
 }
 /* Header Div */
-header>div
+#MainHeader>div
 {
    height: 150px; 
 }
@@ -208,8 +224,16 @@ footer li a
 {
     border-bottom:3px solid;
 }
+#MainHeader
+{
+    display: block;
+}
+#MobileHeader
+{
+    display: none;
+}
 /* Header Nav */
-header > nav
+#MainHeader > nav
 {
     height: 80px;
 }
@@ -242,7 +266,7 @@ header > nav
     font-size: 17px;
 } 
 /* Header Div */
-header>div
+#MainHeader>div
 {
    height: 140px; 
 }
@@ -310,4 +334,87 @@ footer li a
     font-size: 16px;
     font-weight: 400;
 }
+}
+
+@media (max-width: 768px)
+{
+.myContainer
+{
+    width: 95%!important;
+    margin-left: 2.5%!important;
+    margin-right: 2.5%!important;
+}
+#MainHeader
+{
+    display: none;
+}
+#MobileHeader
+{
+    display: flex;
+    height: 150px;
+}
+#MobileLogInOutBox button
+{
+    height: 60px;
+    width: 60px;
+}
+#MobileLogInOutBox img
+{
+    height: 40px;
+    width: 40px;
+}
+/* SearchBox */
+#SearchBox>div img
+{
+    height: 30px;
+    width: 30px;
+    margin:0px;
+    padding:0px;
+}
+#SearchBox>div p
+{
+    font-size: 20px;
+    font-weight: 700;
+    margin:0px;
+    padding:0px;
+}
+#SearchBox>div input
+{
+    height: 35px;
+    border-radius : 8px;
+    border: 3px solid;
+}
+#SearchBox > a img
+{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+#SearchBox > a
+{
+    font-size: 12px;
+}
+/* Footer */
+footer
+{
+    border-top:1px solid;
+    height: 250px;
+}
+.SocialMedia p
+{
+    font-size: 10px;
+}
+.SocialMedia a
+{
+    font-size: 12px;
+}
+footer li a
+{
+    font-size: 12px;
+}
+.Address
+{
+    font-size: 10px;
+}
+
 }
