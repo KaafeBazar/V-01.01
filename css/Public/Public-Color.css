@@ -45,7 +45,7 @@ body
     color : var(--TextColor);
 }
 /* Header Div */
-#LogInOutBox button
+#LogInOutBox button ,#MobileLogInOutBox button 
 {
     background-color : var(--BackColor);
     color: var(--PrimaryColor);
