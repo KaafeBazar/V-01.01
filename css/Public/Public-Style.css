@@ -30,6 +30,14 @@
 {
     height: 38%;
 }
+.h-60
+{
+    height: 60%;
+}
+.h-40
+{
+    height: 40%;
+}
 .ShowMe
 {
     border: 1px solid black;
@@ -39,7 +47,7 @@ input
     outline: none !important;   
 }
 /* Header Nav */
-header > nav
+#MainHeader > nav
 {
     height: 110px;
 }
@@ -72,7 +80,7 @@ header > nav
     font-size: 24px;
 }
 
-header>div
+#MainHeader>div
 {
    height: 220px; 
 }
@@ -117,6 +125,11 @@ header>div
     font-size: 20px;
 }
 
+/* MobileHeader */
+#MobileHeader
+{
+    display: none;
+}
 /* Footer */
 footer
 {
