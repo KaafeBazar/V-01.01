@@ -1,21 +1,5 @@
 @import url(../Tools/Font.css);
 
-@media (max-width: 2226px)/*fix*/
-{
-.fix-home-ca
-{
-    padding: 3px 0px ;
-}
-}
-
-@media (max-width: 2025px)/*fix*/
-{
-.fix-cafee-ca
-{
-    padding: 3px 0px ;
-}
-}
-
 @media (max-width: 1880px) /*PC*/
 {
 /* Banner */
@@ -35,7 +19,7 @@
 }
 #NewstJobTitle h2
 {
-    font-size: 55px;
+    font-size: 50px;
 }
 /* WebLog */
 #WebLog
@@ -58,6 +42,22 @@
 .RequestInfo h3
 {
     font-size: 24px;
+}
+}
+
+@media (max-width: 2226px)/*fix*/
+{
+.fix-home-ca
+{
+    padding: 3px 0px ;
+}
+}
+
+@media (max-width: 2025px)/*fix*/
+{
+.fix-cafee-ca
+{
+    padding: 3px 0px ;
 }
 }
 
@@ -287,7 +287,7 @@
 /* Request */
 #Request
 {
-    height:350px;
+    height:250px;
 }
 #RequestTitle h2
 {
@@ -299,7 +299,7 @@
 }
 .RequestCard
 {
-    height: 270px;
+    height: 200px;
 }
 .RequestInfo h3
 {
@@ -308,7 +308,10 @@
 /* NewstJob */
 #NewstJob
 {
-   height: 350px;
+   height: 300px;
+}
+.Jobcard{
+    height: 270px;
 }
 .Jobcard-UserImg
 {
@@ -319,11 +322,11 @@
 .JobCard-Text h3
 {
     text-align: center;
-    font-size: 17px;
+    font-size: 16px;
 }
 .JobCard-Text p
 {
-    font-size: 12px;
+    font-size: 10px;
 }
 #NewstJobTitle h2
 {
@@ -331,12 +334,12 @@
 }
 #NewstJobTitle p
 {
-    font-size: 14px;
+    font-size: 12px;
 }
 /* Offers */
 #Offers 
 {
-    height: 450px;
+    height: 400px;
 }
 .OffersTitle 
 {
@@ -348,7 +351,7 @@
 }
 }
 
-@media (max-width: 768px) /*Tablet*/
+@media (max-width: 768px) 
 {
 #Banner
 {
@@ -369,7 +372,7 @@
 }
  #CategoriesBox
 {
-    height: 130px;
+    height: 120px;
 }
 .fix-home-ca
 {
@@ -399,7 +402,7 @@
 /* Request */
 #Request
 {
-    height:230px;
+    height:200px;
 }
 #RequestTitle h2
 {
@@ -411,27 +414,32 @@
 }
 .RequestCard
 {
-    height: 200px;
+    height: 175px;
 }
 .RequestInfo h3
 {
-    font-size: 12px;
+    font-size: 10px;
 }
 /* NewstJob */
 #NewstJob
 {
-   height: 280px;
+   height: 250px;
+}
+.Jobcard
+{
+    height: 230px;
 }
 .Jobcard-UserImg
 {
-    width: 70px;
-    height: 70px;
-    margin-top: -35px;
+    width: 60px;
+    height: 60px;
+    margin-top: -30px;
+    border: 3px solid;
 }
 .JobCard-Text h3
 {
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
 }
 .JobCard-Text p
 {
@@ -448,7 +456,7 @@
 /* Offers */
 #Offers 
 {
-    height: 400px;
+    height: 350px;
 }
 .OffersTitle 
 {
@@ -458,4 +466,9 @@
 {
     font-size: 28px;
 }
+}
+
+@media (max-width : 640px)
+{
+
 }
