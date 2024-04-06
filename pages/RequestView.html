@@ -28,50 +28,80 @@
     <body>
         <!-- Header -->
         <header class="myContainer d-flex flex-column">
-            <!-- Nav -->
+            <!-- Main Header -->
+            <div id="MainHeader">
+                <!-- Nav -->
                 <nav class="d-flex row m-0 w-100 Line">
                     <div id="AccountBox" class="col-lg-3 col-md-3 col-3 h-100 d-flex justify-content-center align-items-center ">
-                            <a href="Accounting.html">
-                                <button onmouseenter="ChangeAccountIcon('In')" onmouseleave="ChangeAccountIcon('Out')" type="button">پنل کاربری <img id="Account_icon" src="../icon/User-Blue.png" alt="User Default Image"> </button>
-                            </a>
+                        <a href="Accounting.html">
+                            <button onmouseenter="ChangeAccountIcon('In')" onmouseleave="ChangeAccountIcon('Out')" type="button">پنل کاربری <img id="Account_icon" src="../icon/User-Blue.png" alt="User Default Image"> </button>
+                        </a>
                     </div>
                     <div id="AddJobBox" class="col-lg-4 col-md-3 col-3 h-100 d-flex justify-content-center align-items-center  ">
-                            <a href="Accounting.html">
-                                <button type="button"> ! کسب و کارت را ثبت کن</button>
-                            </a> 
+                        <a href="Accounting.html">
+                            <button type="button"> ! کسب و کارت را ثبت کن</button>
+                        </a> 
                     </div>
                     <div id="TabBox" class="col-lg-5 col-md-6 col-6 h-100 d-flex p-0">
-                            <ul class="list-unstyled h-100 w-100 d-flex row-cols-auto flex-row-reverse justify-content-between">
-                                <li class="d-flex h-100 align-items-end"><a href="Home.html" id="TabHome" class="h-100 d-flex align-items-center " onclick="TabFocuse('Home')"> صفحه اصلی  </a></li>
-                                <li class="d-flex h-100 align-items-end"><a href="Categories.html" id="TabCategory" class="h-100 d-flex align-items-center" onclick="TabFocuse('Category')"> دسته بندی </a></li>
-                                <li class="d-flex h-100 align-items-end"><a href="WebLogList.html" id="TabWebLog" class="h-100 d-flex align-items-center " onclick="TabFocuse('WebLog')"> وب لاگ </a></li>
-                                <li class="d-flex h-100 align-items-end"><a href="CourseList.html" id="TabTraining" class="h-100 d-flex align-items-center " onclick="TabFocuse('Training')"> آموزش </a></li>
-                                <li class="d-flex h-100 align-items-end"><a href="#" id="TabAboutUs" class="h-100 d-flex align-items-center " onclick="TabFocuse('AboutUs')"> درباره ما </a></li>
-                            </ul>
+                        <ul class="list-unstyled h-100 w-100 d-flex row-cols-auto flex-row-reverse justify-content-between">
+                            <li class="d-flex h-100 align-items-end"><a href="Home.html" id="TabHome" class="h-100 d-flex align-items-center TabActive" onclick="TabFocuse('Home')"> صفحه اصلی  </a></li>
+                            <li class="d-flex h-100 align-items-end"><a href="Categories.html" id="TabCategory" class="h-100 d-flex align-items-center" onclick="TabFocuse('Category')"> دسته بندی </a></li>
+                            <li class="d-flex h-100 align-items-end"><a href="WebLogList.html" id="TabWebLog" class="h-100 d-flex align-items-center " onclick="TabFocuse('WebLog')"> وب لاگ </a></li>
+                            <li class="d-flex h-100 align-items-end"><a href="CourseList.html" id="TabTraining" class="h-100 d-flex align-items-center " onclick="TabFocuse('Training')"> آموزش </a></li>
+                            <li class="d-flex h-100 align-items-end"><a href="#" id="TabAboutUs" class="h-100 d-flex align-items-center " onclick="TabFocuse('AboutUs')"> درباره ما </a></li>
+                        </ul>
                     </div>
                 </nav>
-            <!-- /Nav -->
-            <div  class="d-flex row m-0 w-100  Line">
+                <!-- /Nav -->
+                <div  class="d-flex row m-0 w-100  Line">
                     <div id="LogInOutBox" class="d-flex row col-3 col-md-3 p-0 m-0 align-items-center justify-content-center ">
                         <a href="Accounting.html" class="w-auto">
                             <button type="button"> ورود یا ثبت نام <img src="../icon/login.png" alt="Login LogOut Image"> </button>
                         </a>
                     </div>
-                    <div id="SearchBox" class="d-flex flex-column col-6 col-md-6 justify-content-center align-items-end ">
-                        <div class="d-flex row w-100 justify-content-center align-items-center">
-                            <p class="d-flex row-cols-auto justify-content-end align-items-center col-3 ">گلستان <i><img src="../icon/Location.png" alt="Location"></i></p>
-                            <input class="col-7 " type="search" placeholder="جستجو...">
+                    <div id="SearchBox" class="d-flex px-1 flex-column col-6 col-md-6 justify-content-center align-items-end ">
+                        <div class="m-0  d-flex row w-100 justify-content-center align-items-baseline">
+                            <p class="d-flex row-cols-auto justify-content-end align-items-center col-4 ">گلستان <i><img src="../icon/Location.png" alt="Location"></i></p>
+                            <input class="col-8" type="search" placeholder="جستجو...">
                         </div>
-                        <a href="Accounting.html" class="w-75 d-flex row-cols-auto justify-content-end ">جستجوی پیشرفته<i><img src="../icon/Plus.png" alt="Plus" ></i></a>
+                        <a href="Accounting.html" class="d-flex justify-content-end ">جستجوی پیشرفته<i><img src="../icon/Plus.png" alt="Plus" ></i></a>
                     </div>
                     <div id="LogoBox" class="d-flex justify-content-center align-items-center col-3 col-md-3 ">
-                       <h1>
-                           <a href="Home.html">
-                                <img class="img-fluid w-auto h-75" src="../icon/LogoSite/KaffeBazarIcon-01.png" alt="KaffeBazarIcon">
-                           </a> 
-                       </h1> 
+                        <h1><a href="Home.html"><img class="img-fluid w-auto h-75" src="../icon/LogoSite/KaffeBazarIcon-01.png" alt="KaffeBazarIcon"></a></h1> 
                     </div>
+                </div>
             </div>
+            <!-- /Main Header -->
+            <!-- Mobile Header -->
+            <div id="MobileHeader" class="row justify-content-center align-items-center m-0 w-100 Line">
+                <div  class="d-flex row h-60 m-0 p-0 w-100  Line">
+                    <div id="MobileLogInOutBox" class="d-flex row col-2 p-0 m-0 align-items-center justify-content-center ">
+                        <a href="Accounting.html" class="w-auto d-flex justify-content-center align-items-center">
+                            <button type="button" class="rounded-circle"><img src="../icon/User-Blue.png" alt="Login LogOut Image"></button>
+                        </a>
+                    </div>
+                    <div id="SearchBox" class="d-flex flex-column col-sm-7 col-8 px-1 py-2 justify-content-center align-items-end ">
+                        <div class="mx-0 my-1 d-flex row w-100 justify-content-center align-items-baseline">
+                            <p class="d-flex row-cols-auto justify-content-end align-items-center col-3">گلستان <i><img src="../icon/Location.png" alt="Location"></i></p>
+                            <input class="col-9" type="search" placeholder="جستجو...">
+                        </div>
+                        <a href="Accounting.html" class="d-flex row-cols-auto justify-content-end">جستجوی پیشرفته<i><img src="../icon/Plus.png" alt="Plus" ></i></a>
+                    </div>
+                    <div id="LogoBox" class="d-flex justify-content-center align-items-center col-sm-3 col-2">
+                        <h1><a href="Home.html"><img class="img-fluid w-auto h-75" src="../icon/LogoSite/MobileLogo.png" alt="KaffeBazarIcon"></a></h1> 
+                    </div>
+                </div>
+                <div id="TabBox" class="col-11 h-40 d-flex p-0">
+                    <ul class="list-unstyled h-100 w-100 d-flex row-cols-auto flex-row-reverse justify-content-between">
+                        <li class="d-flex h-100 align-items-end"><a href="Home.html" id="TabHome" class="h-100 d-flex align-items-center TabActive" onclick="TabFocuse('Home')"> صفحه اصلی  </a></li>
+                        <li class="d-flex h-100 align-items-end"><a href="Categories.html" id="TabCategory" class="h-100 d-flex align-items-center" onclick="TabFocuse('Category')"> دسته بندی </a></li>
+                        <li class="d-flex h-100 align-items-end"><a href="WebLogList.html" id="TabWebLog" class="h-100 d-flex align-items-center " onclick="TabFocuse('WebLog')"> وب لاگ </a></li>
+                        <li class="d-flex h-100 align-items-end"><a href="CourseList.html" id="TabTraining" class="h-100 d-flex align-items-center " onclick="TabFocuse('Training')"> آموزش </a></li>
+                        <li class="d-flex h-100 align-items-end"><a href="#" id="TabAboutUs" class="h-100 d-flex align-items-center " onclick="TabFocuse('AboutUs')"> درباره ما </a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /Mobile Header -->
         </header>
         <!-- /Header -->
         <!-- Banner -->
@@ -115,7 +145,7 @@
         <!-- /WebLog Content -->
         <!-- Footer -->
         <footer class="myContainer d-flex row">
-            <div class="col-6 h-100 d-flex flex-column align-items-center ">
+            <div class="col-6 h-100 p-1 d-flex flex-column align-items-center ">
                 <div class="Certificate py-4 col-12 h-50 d-flex row justify-content-center align-items-start Line">
                     <div class="col-4 h-100 d-flex flex-column justify-content-center align-items-center">
                         <img class="img-fluid h-100" src="../img/Certifiate/Enamad.png" alt="">
@@ -138,7 +168,7 @@
                 </div>
                 <div></div>
             </div>
-            <div class="col-6 h-100 d-flex flex-column align-items-center ">
+            <div class="col-6 h-100 p-1 d-flex flex-column align-items-center ">
                 <ul class="list-unstyled col-lg-10 col-md-12 d-flex row-cols-auto flex-row-reverse justify-content-between ">
                     <li class="d-flex h-100 align-items-end"><a href="Home.html" class="h-100 d-flex align-items-center " > صفحه اصلی  </a></li>
                     <li class="d-flex h-100 align-items-end"><a href="Categories.html" class="h-100 d-flex align-items-center " > دسته بندی </a></li>
