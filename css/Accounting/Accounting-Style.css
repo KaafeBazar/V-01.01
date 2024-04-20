@@ -22,6 +22,10 @@
     font-size: 28px;
     font-weight: 100;
 }
+#AccountingTabs h2
+{
+    direction: rtl;
+}
 #AccountingTabs li
 {
     height: 100px;
