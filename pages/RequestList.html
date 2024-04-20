@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="../css/Tools/owl.theme.default.min.css">
         <!-- Request List Layout Style -->
         <link rel="stylesheet" href="../css/RequestList/RequestList-Style.css">
+        <link rel="stylesheet" href="../css/CourseList/CourseList-Responsive.css">
         <link rel="stylesheet" href="../css/RequestList/RequestList-Color.css">
         <!-- Home layout Style -->
         <link rel="stylesheet" href="../css/Home/Home-Style.css">
@@ -41,7 +42,7 @@
                     </div>
                     <div id="TabBox" class="col-lg-5 col-md-6 col-6 h-100 d-flex p-0">
                         <ul class="list-unstyled h-100 w-100 d-flex row-cols-auto flex-row-reverse justify-content-between">
-                            <li class="d-flex h-100 align-items-end"><a href="Home.html" id="TabHome" class="h-100 d-flex align-items-center TabActive" onclick="TabFocuse('Home')"> صفحه اصلی  </a></li>
+                            <li class="d-flex h-100 align-items-end"><a href="Home.html" id="TabHome" class="h-100 d-flex align-items-center " onclick="TabFocuse('Home')"> صفحه اصلی  </a></li>
                             <li class="d-flex h-100 align-items-end"><a href="Categories.html" id="TabCategory" class="h-100 d-flex align-items-center" onclick="TabFocuse('Category')"> دسته بندی </a></li>
                             <li class="d-flex h-100 align-items-end"><a href="WebLogList.html" id="TabWebLog" class="h-100 d-flex align-items-center " onclick="TabFocuse('WebLog')"> وب لاگ </a></li>
                             <li class="d-flex h-100 align-items-end"><a href="CourseList.html" id="TabTraining" class="h-100 d-flex align-items-center " onclick="TabFocuse('Training')"> آموزش </a></li>
@@ -90,7 +91,7 @@
                 </div>
                 <div id="TabBox" class="col-11 h-40 d-flex p-0">
                     <ul class="list-unstyled h-100 w-100 d-flex row-cols-auto flex-row-reverse justify-content-between">
-                        <li class="d-flex h-100 align-items-end"><a href="Home.html" id="TabHome" class="h-100 d-flex align-items-center TabActive" onclick="TabFocuse('Home')"> صفحه اصلی  </a></li>
+                        <li class="d-flex h-100 align-items-end"><a href="Home.html" id="TabHome" class="h-100 d-flex align-items-center " onclick="TabFocuse('Home')"> صفحه اصلی  </a></li>
                         <li class="d-flex h-100 align-items-end"><a href="Categories.html" id="TabCategory" class="h-100 d-flex align-items-center" onclick="TabFocuse('Category')"> دسته بندی </a></li>
                         <li class="d-flex h-100 align-items-end"><a href="WebLogList.html" id="TabWebLog" class="h-100 d-flex align-items-center " onclick="TabFocuse('WebLog')"> وب لاگ </a></li>
                         <li class="d-flex h-100 align-items-end"><a href="CourseList.html" id="TabTraining" class="h-100 d-flex align-items-center " onclick="TabFocuse('Training')"> آموزش </a></li>
@@ -113,8 +114,8 @@
                 </div>
                 <!-- /Content Sort --> 
                 <!-- Content List -->
-                <div id="RequestList" class="w-100 d-flex row py-4 m-0 justify-content-between align-self-center">
-                    <div class="col-3 ">
+                <div id="RequestList" class="w-100 d-flex row py-4 m-0 justify-content-end align-content-start">
+                    <div class="col-xl-3 col-md-4 my-2 col-sm-6">
                         <a href="RequestView.html">
                             <div class="RequestCard d-flex flex-column ">
                                 <div class="RequestImg w-100 h-75">
@@ -126,7 +127,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-3 ">
+                    <div class="col-xl-3 col-md-4 my-2 col-sm-6">
                         <a href="RequestView.html">
                             <div class="RequestCard d-flex flex-column ">
                                 <div class="RequestImg w-100 h-75">
@@ -138,7 +139,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-3 ">
+                    <div class="col-xl-3 col-md-4 my-2 col-sm-6">
                         <a href="RequestView.html">
                             <div class="RequestCard d-flex flex-column ">
                                 <div class="RequestImg w-100 h-75">
@@ -150,56 +151,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-3 ">
-                        <a href="RequestView.html">
-                            <div class="RequestCard d-flex flex-column ">
-                                <div class="RequestImg w-100 h-75">
-                                    <img class="img-fluid w-100 h-100" src="../img/Request/ImageNull.png" alt="RequestImg">
-                                </div>
-                                <div class="RequestInfo w-100 h-25 d-flex flex-column justify-content-center align-items-center">
-                                    <h3>عنوان درخواست</h3>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-3 ">
-                        <a href="RequestView.html">
-                            <div class="RequestCard d-flex flex-column ">
-                                <div class="RequestImg w-100 h-75">
-                                    <img class="img-fluid w-100 h-100" src="../img/Request/ImageNull.png" alt="RequestImg">
-                                </div>
-                                <div class="RequestInfo w-100 h-25 d-flex flex-column justify-content-center align-items-center">
-                                    <h3>عنوان درخواست</h3>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-3 ">
-                        <a href="RequestView.html">
-                            <div class="RequestCard d-flex flex-column ">
-                                <div class="RequestImg w-100 h-75">
-                                    <img class="img-fluid w-100 h-100" src="../img/Request/ImageNull.png" alt="RequestImg">
-                                </div>
-                                <div class="RequestInfo w-100 h-25 d-flex flex-column justify-content-center align-items-center">
-                                    <h3>عنوان درخواست</h3>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-3 ">
-                        <a href="RequestView.html">
-                            <div class="RequestCard d-flex flex-column ">
-                                <div class="RequestImg w-100 h-75">
-                                    <img class="img-fluid w-100 h-100" src="../img/Request/ImageNull.png" alt="RequestImg">
-                                </div>
-                                <div class="RequestInfo w-100 h-25 d-flex flex-column justify-content-center align-items-center">
-                                    <h3>عنوان درخواست</h3>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-3 ">
+                    <div class="col-xl-3 col-md-4 my-2 col-sm-6">
                         <a href="RequestView.html">
                             <div class="RequestCard d-flex flex-column ">
                                 <div class="RequestImg w-100 h-75">
@@ -212,7 +164,7 @@
                         </a>
                     </div>
 
-                    <div class="col-3 ">
+                    <div class="col-xl-3 col-md-4 my-2 col-sm-6">
                         <a href="RequestView.html">
                             <div class="RequestCard d-flex flex-column ">
                                 <div class="RequestImg w-100 h-75">
@@ -224,31 +176,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-3 ">
-                        <a href="RequestView.html">
-                            <div class="RequestCard d-flex flex-column ">
-                                <div class="RequestImg w-100 h-75">
-                                    <img class="img-fluid w-100 h-100" src="../img/Request/ImageNull.png" alt="RequestImg">
-                                </div>
-                                <div class="RequestInfo w-100 h-25 d-flex flex-column justify-content-center align-items-center">
-                                    <h3>عنوان درخواست</h3>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-3 ">
-                        <a href="RequestView.html">
-                            <div class="RequestCard d-flex flex-column ">
-                                <div class="RequestImg w-100 h-75">
-                                    <img class="img-fluid w-100 h-100" src="../img/Request/ImageNull.png" alt="RequestImg">
-                                </div>
-                                <div class="RequestInfo w-100 h-25 d-flex flex-column justify-content-center align-items-center">
-                                    <h3>عنوان درخواست</h3>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-3 ">
+                    <div class="col-xl-3 col-md-4 my-2 col-sm-6">
                         <a href="RequestView.html">
                             <div class="RequestCard d-flex flex-column ">
                                 <div class="RequestImg w-100 h-75">
