@@ -75,7 +75,45 @@
     #RequestInfo
     {
         margin-top: -70px;
-        height: 250px;
+        height: 300px;
+    }
+    .UserImg
+    {
+        width: 100px;
+        height: 100px;
+    }
+    .RequestInfo h1
+    {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .RequestInfo h2
+    {
+        margin-top: 10px;
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    /* SuggestBox */
+    #SuggestBox
+    {
+        height: 650px;
+    }
+    #SuggestTitle
+    {
+        height: 80px;
+    }
+    #SuggestText
+    {
+        height: 350px;
+    }
+}
+
+@media (max-width: 768px) /*LapTop*/
+{
+    #RequestInfo
+    {
+        margin-top: -80px;
+        height: 300px;
     }
     .UserImg
     {
