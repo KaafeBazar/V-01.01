@@ -147,3 +147,90 @@
     font-size: 22px;
 }
 } 
+
+@media (max-width: 768px) /*LapTop*/
+{
+   /* Content */
+#Content
+{
+    height: 1100px;
+}
+/* Content Sort */
+#ContentSort
+{
+    height: 100px;
+}
+#ContentSort li
+{
+    font-size: 18px;
+    font-weight: 500;
+    height: 30px;
+} 
+#ContentSort p
+{
+    height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+ /* Content List */
+#ContentList
+{
+    height: 1000px;
+}
+#ContentList .Jobcard
+{
+    height: 300px;
+}
+#ContentList .Jobcard-UserImg
+{
+    width: 75px;
+    height: 75px;
+    margin-top: -40px;
+}
+/*  */
+.Jobcard
+{
+    height: 250px !important;
+}
+.Jobcard-UserImg
+{
+    width: 60px;
+    height: 60px;
+    margin-top: -30px;
+    border: 3px solid;
+}
+.JobCard-Text h3
+{
+    text-align: center;
+    font-size: 12px;
+}
+.JobCard-Text p
+{
+    font-size: 10px;
+}
+/*  */
+.filter-open
+{
+    height: 250px !important;
+}
+.FilterHeader h2
+{
+    font-size: 22px;
+}
+.FliterConent li
+{
+    font-size: 18px;
+    height: 80px;
+}
+.FliterConent li img
+{
+    width:24px;
+    height:24px;
+}
+.FliterConent button
+{
+    width: 170px;
+    height: 60px;
+    font-size: 22px;
+}
+}
