@@ -360,7 +360,7 @@
  /* Categuries */
 #CategoriesTitle h2
 {
-    font-size: 28px;
+    font-size: 22px;
 }
  #CategoriesBox h3
 {
@@ -389,7 +389,7 @@
 /* WebLog */
 #WebLog
 {
-    height: 370px;
+    height: 350px;
 }
 .WeblogTitle h2
 {
@@ -402,11 +402,11 @@
 /* Request */
 #Request
 {
-    height:200px;
+    height:170px;
 }
 #RequestTitle h2
 {
-    font-size: 26px;
+    font-size: 22px;
 }
 #RequestTitle p
 {
@@ -414,7 +414,7 @@
 }
 .RequestCard
 {
-    height: 175px;
+    height: 160px;
 }
 .RequestInfo h3
 {
@@ -427,7 +427,7 @@
 }
 .Jobcard
 {
-    height: 230px;
+    height: 200px;
 }
 .Jobcard-UserImg
 {
@@ -456,7 +456,7 @@
 /* Offers */
 #Offers 
 {
-    height: 350px;
+    height: 300px;
 }
 .OffersTitle 
 {
