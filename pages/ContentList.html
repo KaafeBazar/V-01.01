@@ -43,8 +43,8 @@
                     </div>
                     <div id="TabBox" class="col-lg-5 col-md-6 col-6 h-100 d-flex p-0">
                         <ul class="list-unstyled h-100 w-100 d-flex row-cols-auto flex-row-reverse justify-content-between">
-                            <li class="d-flex h-100 align-items-end"><a href="Home.html" id="TabHome" class="h-100 d-flex align-items-center TabActive" onclick="TabFocuse('Home')"> صفحه اصلی  </a></li>
-                            <li class="d-flex h-100 align-items-end"><a href="Categories.html" id="TabCategory" class="h-100 d-flex align-items-center" onclick="TabFocuse('Category')"> دسته بندی </a></li>
+                            <li class="d-flex h-100 align-items-end"><a href="Home.html" id="TabHome" class="h-100 d-flex align-items-center " onclick="TabFocuse('Home')"> صفحه اصلی  </a></li>
+                            <li class="d-flex h-100 align-items-end"><a href="Categories.html" id="TabCategory" class="h-100 d-flex align-items-center TabActive" onclick="TabFocuse('Category')"> دسته بندی </a></li>
                             <li class="d-flex h-100 align-items-end"><a href="WebLogList.html" id="TabWebLog" class="h-100 d-flex align-items-center " onclick="TabFocuse('WebLog')"> وب لاگ </a></li>
                             <li class="d-flex h-100 align-items-end"><a href="CourseList.html" id="TabTraining" class="h-100 d-flex align-items-center " onclick="TabFocuse('Training')"> آموزش </a></li>
                             <li class="d-flex h-100 align-items-end"><a href="#" id="TabAboutUs" class="h-100 d-flex align-items-center " onclick="TabFocuse('AboutUs')"> درباره ما </a></li>
@@ -92,8 +92,8 @@
                 </div>
                 <div id="TabBox" class="col-11 h-40 d-flex p-0">
                     <ul class="list-unstyled h-100 w-100 d-flex row-cols-auto flex-row-reverse justify-content-between">
-                        <li class="d-flex h-100 align-items-end"><a href="Home.html" id="TabHome" class="h-100 d-flex align-items-center TabActive" onclick="TabFocuse('Home')"> صفحه اصلی  </a></li>
-                        <li class="d-flex h-100 align-items-end"><a href="Categories.html" id="TabCategory" class="h-100 d-flex align-items-center" onclick="TabFocuse('Category')"> دسته بندی </a></li>
+                        <li class="d-flex h-100 align-items-end"><a href="Home.html" id="TabHome" class="h-100 d-flex align-items-center " onclick="TabFocuse('Home')"> صفحه اصلی  </a></li>
+                        <li class="d-flex h-100 align-items-end"><a href="Categories.html" id="TabCategory" class="h-100 d-flex align-items-center TabActive" onclick="TabFocuse('Category')"> دسته بندی </a></li>
                         <li class="d-flex h-100 align-items-end"><a href="WebLogList.html" id="TabWebLog" class="h-100 d-flex align-items-center " onclick="TabFocuse('WebLog')"> وب لاگ </a></li>
                         <li class="d-flex h-100 align-items-end"><a href="CourseList.html" id="TabTraining" class="h-100 d-flex align-items-center " onclick="TabFocuse('Training')"> آموزش </a></li>
                         <li class="d-flex h-100 align-items-end"><a href="#" id="TabAboutUs" class="h-100 d-flex align-items-center " onclick="TabFocuse('AboutUs')"> درباره ما </a></li>
@@ -108,12 +108,12 @@
             <div class="col-9 h-100 px-2 d-flex flex-column">
                 <!-- Content Sort -->
                 <div id="ContentSort" class="w-100  d-flex row flex-row-reverse m-0 justify-content-xl-evenly justify-content-lg-center align-items-center">
-                    <p class="col-xxl-3 col-xl-4 col-12 row align-items-center justify-content-end">مرتب سازی <img class="img-fluid col-xl-4 col-1 h-auto m-2" src="../icon/Sort.png" alt=""></p>
-                    <ul class="col-xxl-8 col-xl-8 col-12 list-unstyled d-flex row-cols-auto justify-content-xl-between justify-content-md-evenly align-items-center">
-                        <li onclick="SortChange('Popular')" id="Popular" class="">محبوب ترین</li>
-                        <li onclick="SortChange('Newest')" id="Newest" class="">جدید ترین</li>
-                        <li onclick="SortChange('Closest')" id="Closest" class="">نزدیک ترین</li>
-                        <li onclick="SortChange('Offers')" id="Offers" class="TabActive">پیشنهادات</li>
+                    <p class="col-xxl-3 col-xl-4 col-lg-12 row align-items-center justify-content-end">مرتب سازی <img class="img-fluid col-xl-4 col-1 h-auto m-2" src="../icon/Sort.png" alt=""></p>
+                    <ul class="col-xxl-8 col-xl-8 col-lg-12 list-unstyled d-flex row-cols-auto justify-content-xl-between justify-content-sm-evenly  align-items-center">
+                        <li onclick="SortChange('Popular')" id="Popular" class="h-100 ">محبوب ترین</li>
+                        <li onclick="SortChange('Newest')" id="Newest" class="h-100 ">جدید ترین</li>
+                        <li onclick="SortChange('Closest')" id="Closest" class="h-100 ">نزدیک ترین</li>
+                        <li onclick="SortChange('Offers')" id="Offers" class="h-100 TabActive">پیشنهادات</li>
                     </ul>
                 </div>
                 <!-- /Content Sort -->
