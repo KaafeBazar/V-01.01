@@ -2,11 +2,11 @@
 
 @media (max-width: 1440px) /*LapTop*/
 {
-    #CourseList , #WebLogSort
+    #CourseList , #WebLogSort , #RequestSort
     {
         height: 110px;
     }
-    #CourseList li , #WebLogSort li
+    #CourseList li , #WebLogSort li , #RequestSort li
     {
         font-size: 24px;
     }
@@ -14,12 +14,24 @@
 
 @media (max-width: 1024px) /*LapTop*/
 {
-    #CourseList , #WebLogSort
+    #CourseList , #WebLogSort ,#RequestSort
     {
         height: 100px;
     }
-    #CourseList li , #WebLogSort li
+    #CourseList li , #WebLogSort li ,#RequestSort li
     {
         font-size: 22px;
+    }
+}
+
+@media (max-width: 1024px) /*LapTop*/
+{
+    #CourseList , #WebLogSort , #RequestSort
+    {
+        height: 80px;
+    }
+    #CourseList li , #WebLogSort li , #RequestSort li
+    {
+        font-size: 18px;
     }
 }
