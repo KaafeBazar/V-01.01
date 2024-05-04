@@ -10,6 +10,10 @@
     {
         font-size: 24px;
     }
+    #RequestList
+    {
+        height: 800px;
+    }
 }
 
 @media (max-width: 1024px) /*LapTop*/
@@ -21,6 +25,10 @@
     #CourseList li , #WebLogSort li ,#RequestSort li
     {
         font-size: 22px;
+    }
+    #RequestList
+    {
+        height: 700px;
     }
 }
 
@@ -34,4 +42,19 @@
     {
         font-size: 18px;
     }
+    #RequestList
+    {
+        height: 600px;
+    }
+}
+@media (max-width : 768px) 
+{
+    #CourseList , #WebLogSort , #RequestSort
+    {
+        height: 60px;
+    }
+    #CourseList li , #WebLogSort li , #RequestSort li
+    {
+        font-size: 18px;
+    }  
 }
