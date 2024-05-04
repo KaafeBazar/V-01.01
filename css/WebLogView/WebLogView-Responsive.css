@@ -39,16 +39,20 @@
 }
 .AoutherImg
 {
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
 }
 .WebLogInfo h1 
 {
-    font-size: 20px;
+    font-size: 25px;
 }
 .WebLogInfo h2 
 {
-    font-size: 18px;
+    font-size: 20px;
+}
+.WebLogInfo img 
+{
+    width: 25px;
 }
 #Tags p
 {
@@ -58,4 +62,47 @@
 {
     font-size: 14px;
 }
+}
+
+@media (max-width: 767px)
+{
+    #WebLogInfo
+    {
+        margin-top: -90px;
+        height: 600px;
+    }
+    .AoutherImg
+    {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 30px;
+    }
+    .WebLogInfo
+    {
+        max-height: 150px;
+    }
+    .WebLogInfo img
+    {
+        width: 40px;
+    }
+    .WebLogInfo h1 
+    {
+        font-size: 25px;
+    }
+    .WebLogInfo h2 
+    {
+        font-size: 20px;
+    }
+    .WebLogPreText
+    {
+        height: 300px !important;
+    }
+    #Tags p
+    {
+       font-size: 20px; 
+    }
+    #Tags span
+    {
+        font-size: 14px;
+    } 
 }
