@@ -127,3 +127,54 @@
     font-size: 10px;
 }
 }
+
+@media (max-width: 768px)
+{
+    #ProfileInfo
+    {
+        height: 250px;
+        margin-top: -60px;
+    }
+    .UserImg
+    {
+        width: 90px;
+        height: 90px;   
+    }
+    .UserInfo img
+    {
+        width: 30px;
+    }
+    .UserInfo h2 
+    {
+        font-size: 22px;
+    }
+    .UserInfo h3
+    {
+        font-size: 18px;
+    }
+    .ProfileInfoTop h2
+    {
+        font-size: 22px;
+    }
+    .ReportLink
+    {
+        font-size: 14px;
+    }
+/* ProfileContent */
+#ProfileGalleryView
+{
+    height: 750px;
+}
+#ProfileInfoView
+{
+    height: 600px;
+}
+.InfoBoxShow p
+{
+    font-size: 16px;
+}
+.SocilaMediaLink a
+{
+    font-size: 13px;
+} 
+}
