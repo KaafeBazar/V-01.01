@@ -112,13 +112,18 @@
 {
     #RequestInfo
     {
-        margin-top: -80px;
-        height: 300px;
+        margin-top: -90px;
+        height: 600px;
+    }
+    .RequestInfo
+    {
+        max-height: 150px;
     }
     .UserImg
     {
-        width: 100px;
-        height: 100px;
+        width: 120px;
+        height: 120px;
+        margin-bottom: 30px;
     }
     .RequestInfo h1
     {
@@ -130,6 +135,10 @@
         margin-top: 10px;
         font-size: 16px;
         margin-bottom: 0;
+    }
+    .requestText
+    {
+        height: 300px !important;
     }
     /* SuggestBox */
     #SuggestBox
