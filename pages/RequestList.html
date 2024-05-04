@@ -17,6 +17,7 @@
         <link rel="stylesheet" href="../css/RequestList/RequestList-Color.css">
         <!-- Home layout Style -->
         <link rel="stylesheet" href="../css/Home/Home-Style.css">
+        <link rel="stylesheet" href="../css/Home/Home-Responsive.css">
         <link rel="stylesheet" href="../css/Home/Home-Color.css">  
         <!-- Public Layout Style -->
         <link rel="stylesheet" href="../css/Public/Public-Style.css">
@@ -106,83 +107,70 @@
         <section id="Contetn" class="myContainer p-4  d-flex row m-0 justify-content-between align-items-center ">
                 <!-- Content Sort -->
                 <div id="RequestSort" class="w-100 px-5 d-flex row m-0 justify-content-center align-items-center">
-                    <ul class="col-6 h-50 offset-1 list-unstyled d-flex row-cols-auto justify-content-center align-items-center">
-                        <li  id="Popular" class="h-75 mx-4 pb-5 h-75 ">محبوب ترین</li>
-                        <li  id="Newest" class="h-75 mx-4 pb-5 h-75 TabActive">جدید ترین</li>
-                        <li  id="Category" class="h-75 mx-4 pb-5 h-75 ">دسته بندی (همه دسته بندی ها)</li>
+                    <ul class="col-12 h-100 offset-1 list-unstyled d-flex row-cols-auto justify-content-center align-items-center">
+                        <li  id="Popular" class="h-75 mx-4 d-flex align-items-center ">محبوب ترین</li>
+                        <li  id="Newest" class="h-75 mx-4 d-flex align-items-center TabActive">جدید ترین</li>
+                        <li  id="Category" class="h-75 mx-4 d-flex align-items-center ">دسته بندی (همه دسته بندی ها)</li>
                     </ul>
                 </div>
                 <!-- /Content Sort --> 
                 <!-- Content List -->
                 <div id="RequestList" class="w-100 d-flex row py-4 m-0 justify-content-end align-content-start">
-                    <div class="col-xl-3 col-md-4 my-2 col-sm-6">
-                        <a href="RequestView.html">
-                            <div class="RequestCard d-flex flex-column ">
-                                <div class="RequestImg w-100 h-75">
-                                    <img class="img-fluid w-100 h-100" src="../img/Request/ImageNull.png" alt="RequestImg">
+                    <div class="col-3 px-2 d-flex flex-column justify-content-start align-items-center">
+                        <a href="WebLogView.html" class="w-100 ">
+                            <div class="WeblogCard w-100">
+                                <div class="WebLog-Img w-100 h-75">
+                                    <img class="w-100 h-100 img-fluid" src="../img/WebLog/ImageNull.png" alt="">
                                 </div>
-                                <div class="RequestInfo w-100 h-25 d-flex flex-column justify-content-center align-items-center">
+                                <div class="WebLog-Info w-100 h-25 d-flex flex-column justify-content-center align-items-center">
                                     <h3>عنوان درخواست</h3>
                                 </div>
                             </div>
                         </a>
                     </div>
-                    <div class="col-xl-3 col-md-4 my-2 col-sm-6">
-                        <a href="RequestView.html">
-                            <div class="RequestCard d-flex flex-column ">
-                                <div class="RequestImg w-100 h-75">
-                                    <img class="img-fluid w-100 h-100" src="../img/Request/ImageNull.png" alt="RequestImg">
+                    <div class="col-3 px-2 d-flex flex-column justify-content-start align-items-center">
+                        <a href="WebLogView.html" class="w-100 ">
+                            <div class="WeblogCard w-100">
+                                <div class="WebLog-Img w-100 h-75">
+                                    <img class="w-100 h-100 img-fluid" src="../img/WebLog/ImageNull.png" alt="">
                                 </div>
-                                <div class="RequestInfo w-100 h-25 d-flex flex-column justify-content-center align-items-center">
+                                <div class="WebLog-Info w-100 h-25 d-flex flex-column justify-content-center align-items-center">
                                     <h3>عنوان درخواست</h3>
                                 </div>
                             </div>
                         </a>
                     </div>
-                    <div class="col-xl-3 col-md-4 my-2 col-sm-6">
-                        <a href="RequestView.html">
-                            <div class="RequestCard d-flex flex-column ">
-                                <div class="RequestImg w-100 h-75">
-                                    <img class="img-fluid w-100 h-100" src="../img/Request/ImageNull.png" alt="RequestImg">
+                    <div class="col-3 px-2 d-flex flex-column justify-content-start align-items-center">
+                        <a href="WebLogView.html" class="w-100 ">
+                            <div class="WeblogCard w-100">
+                                <div class="WebLog-Img w-100 h-75">
+                                    <img class="w-100 h-100 img-fluid" src="../img/WebLog/ImageNull.png" alt="">
                                 </div>
-                                <div class="RequestInfo w-100 h-25 d-flex flex-column justify-content-center align-items-center">
+                                <div class="WebLog-Info w-100 h-25 d-flex flex-column justify-content-center align-items-center">
                                     <h3>عنوان درخواست</h3>
                                 </div>
                             </div>
                         </a>
                     </div>
-                    <div class="col-xl-3 col-md-4 my-2 col-sm-6">
-                        <a href="RequestView.html">
-                            <div class="RequestCard d-flex flex-column ">
-                                <div class="RequestImg w-100 h-75">
-                                    <img class="img-fluid w-100 h-100" src="../img/Request/ImageNull.png" alt="RequestImg">
+                    <div class="col-3 px-2 d-flex flex-column justify-content-start align-items-center">
+                        <a href="WebLogView.html" class="w-100 ">
+                            <div class="WeblogCard w-100">
+                                <div class="WebLog-Img w-100 h-75">
+                                    <img class="w-100 h-100 img-fluid" src="../img/WebLog/ImageNull.png" alt="">
                                 </div>
-                                <div class="RequestInfo w-100 h-25 d-flex flex-column justify-content-center align-items-center">
+                                <div class="WebLog-Info w-100 h-25 d-flex flex-column justify-content-center align-items-center">
                                     <h3>عنوان درخواست</h3>
                                 </div>
                             </div>
                         </a>
                     </div>
-
-                    <div class="col-xl-3 col-md-4 my-2 col-sm-6">
-                        <a href="RequestView.html">
-                            <div class="RequestCard d-flex flex-column ">
-                                <div class="RequestImg w-100 h-75">
-                                    <img class="img-fluid w-100 h-100" src="../img/Request/ImageNull.png" alt="RequestImg">
+                    <div class="col-3 px-2 d-flex flex-column justify-content-start align-items-center">
+                        <a href="WebLogView.html" class="w-100 ">
+                            <div class="WeblogCard w-100">
+                                <div class="WebLog-Img w-100 h-75">
+                                    <img class="w-100 h-100 img-fluid" src="../img/WebLog/ImageNull.png" alt="">
                                 </div>
-                                <div class="RequestInfo w-100 h-25 d-flex flex-column justify-content-center align-items-center">
-                                    <h3>عنوان درخواست</h3>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-xl-3 col-md-4 my-2 col-sm-6">
-                        <a href="RequestView.html">
-                            <div class="RequestCard d-flex flex-column ">
-                                <div class="RequestImg w-100 h-75">
-                                    <img class="img-fluid w-100 h-100" src="../img/Request/ImageNull.png" alt="RequestImg">
-                                </div>
-                                <div class="RequestInfo w-100 h-25 d-flex flex-column justify-content-center align-items-center">
+                                <div class="WebLog-Info w-100 h-25 d-flex flex-column justify-content-center align-items-center">
                                     <h3>عنوان درخواست</h3>
                                 </div>
                             </div>
