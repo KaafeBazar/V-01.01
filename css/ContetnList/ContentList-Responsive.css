@@ -153,58 +153,46 @@
    /* Content */
 #Content
 {
-    height: 1100px;
+    height: 900px;
 }
 /* Content Sort */
 #ContentSort
 {
-    height: 100px;
+    height: 90px;
 }
 #ContentSort li
 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
-    height: 30px;
+    height: 35px;
 } 
 #ContentSort p
 {
-    height: 30px;
+    height: 20px;
     font-size: 16px;
     font-weight: 400;
 }
  /* Content List */
 #ContentList
 {
-    height: 1000px;
+    height: 700px;
 }
 #ContentList .Jobcard
 {
-    height: 300px;
+    height: 220px;
 }
 #ContentList .Jobcard-UserImg
 {
-    width: 75px;
-    height: 75px;
-    margin-top: -40px;
-}
-/*  */
-.Jobcard
-{
-    height: 250px !important;
-}
-.Jobcard-UserImg
-{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     margin-top: -30px;
-    border: 3px solid;
 }
-.JobCard-Text h3
+#ContentList .JobCard-Text h3
 {
     text-align: center;
     font-size: 12px;
 }
-.JobCard-Text p
+#ContentList .JobCard-Text p
 {
     font-size: 10px;
 }
@@ -213,9 +201,17 @@
 {
     height: 250px !important;
 }
+.FilterHeader
+{
+    height: 70px;
+}
 .FilterHeader h2
 {
-    font-size: 22px;
+    font-size: 20px;
+}
+.FilterHeader P
+{
+    font-size: 10px;
 }
 .FliterConent li
 {
@@ -229,8 +225,8 @@
 }
 .FliterConent button
 {
-    width: 170px;
-    height: 60px;
-    font-size: 22px;
+    width: 130px;
+    height: 50px;
+    font-size: 20px;
 }
 }
