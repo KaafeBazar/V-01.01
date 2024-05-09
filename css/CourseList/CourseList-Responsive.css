@@ -47,6 +47,7 @@
         height: 600px;
     }
 }
+
 @media (max-width : 768px) 
 {
     #CourseList , #WebLogSort , #RequestSort
@@ -56,5 +57,45 @@
     #CourseList li , #WebLogSort li , #RequestSort li
     {
         font-size: 18px;
+    }  
+}
+
+@media (max-width : 576px)
+{
+    #CourseList , #WebLogSort , #RequestSort
+    {
+        height: 50px;
+    }
+    #CourseList li , #WebLogSort li , #RequestSort li
+    {
+        font-size: 14px;
+        font-weight: 600;
+    }  
+}
+
+@media (max-width : 425px)
+{
+    #CourseList li , #WebLogSort li , #RequestSort li
+    {
+        font-size: 14px;
+        font-weight: 500;
+    }  
+}
+
+@media (max-width : 375px)
+{
+    #CourseList li , #WebLogSort li , #RequestSort li
+    {
+        font-size: 12px;
+        font-weight: 600;
+    }  
+}
+
+@media (max-width : 320px)
+{
+    #CourseList li , #WebLogSort li , #RequestSort li
+    {
+        font-size: 10px;
+        font-weight: 600;
     }  
 }
