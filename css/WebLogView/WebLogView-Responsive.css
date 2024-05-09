@@ -106,3 +106,27 @@
         font-size: 14px;
     } 
 }
+
+@media (max-width: 576px)
+{
+    #Tags p
+    {
+       font-size: 14px; 
+    }
+    #Tags span
+    {
+        font-size: 12px;
+    } 
+}
+
+@media (max-width: 425px)
+{
+    #Tags p
+    {
+       font-size: 12px; 
+    }
+    #Tags span
+    {
+        font-size: 10px;
+    } 
+}
