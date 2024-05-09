@@ -1,5 +1,21 @@
 @import url(../Tools/Font.css);
 
+@media (max-width: 2226px)/*fix*/
+{
+.fix-home-ca
+{
+    padding: 3px 0px ;
+}
+}
+
+@media (max-width: 2025px)/*fix*/
+{
+.fix-cafee-ca
+{
+    padding: 3px 0px ;
+}
+}
+
 @media (max-width: 1880px) /*PC*/
 {
 /* Banner */
@@ -42,22 +58,6 @@
 .RequestInfo h3
 {
     font-size: 24px;
-}
-}
-
-@media (max-width: 2226px)/*fix*/
-{
-.fix-home-ca
-{
-    padding: 3px 0px ;
-}
-}
-
-@media (max-width: 2025px)/*fix*/
-{
-.fix-cafee-ca
-{
-    padding: 3px 0px ;
 }
 }
 
@@ -299,11 +299,11 @@
 /* Request */
 #Request
 {
-    height:250px;
+    height:300px;
 }
 #RequestTitle h2
 {
-    font-size: 30px;
+    font-size: 24px;
 }
 #RequestTitle p
 {
@@ -426,7 +426,7 @@
 }
 #RequestTitle h2
 {
-    font-size: 22px;
+    font-size: 18px;
 }
 #RequestTitle p
 {
