@@ -154,3 +154,55 @@
         height: 350px;
     }
 }
+
+@media (max-width: 576px) /*LapTop*/
+{
+    #RequestInfo
+    {
+        margin-top: -70px;
+        height: 500px;
+    }
+    .RequestInfo
+    {
+        max-height: 150px;
+    }
+    .UserImg
+    {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 425px) /*LapTop*/
+{
+    #RequestInfo
+    {
+        margin-top: -60px;
+        height: 450px;
+    }
+    .UserImg
+    {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 30px;
+    }
+    /* SuggestBox */
+    #SuggestBox
+    {
+        height: 650px;
+    }
+    #SuggestTitle input
+    {
+       font-size: 16px;
+    }
+    #SuggestText input
+    {
+        font-size: 16px;
+    }
+    #SuggestBox button
+    {
+        font-size: 18px;
+    }
+}
+
