@@ -29,6 +29,12 @@
     font-size: 20px;
     font-weight: 500;
 }
+/* Recommended */
+#Recommended>div
+{
+    direction: rtl;
+    overflow-x: auto;
+}
 /* WebLogContent */
 #WebLogContent
 {
