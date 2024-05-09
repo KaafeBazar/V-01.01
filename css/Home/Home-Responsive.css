@@ -269,8 +269,20 @@
 }
 #CategoriesBox h3
 {
-    font-size: 18px;
+    font-size: 16px;
 }
+.fix-home-ca
+{
+    padding: 7px 0px ;
+}
+.fix-shop-ca
+{
+    padding:  7px 0px ;
+}
+.fix-cafee-ca
+{
+    padding:  7px 0px ;
+} 
 /* WebLog */
 #WebLog
 {
@@ -351,40 +363,48 @@
 }
 }
 
-@media (max-width: 768px) 
+@media (max-width: 767px) 
 {
 #Banner
 {
     height: 250px;
 }
  /* Categuries */
+ #Categories
+ {
+    height:250px ;
+ }
 #CategoriesTitle h2
 {
     font-size: 22px;
 }
  #CategoriesBox h3
 {
-    font-size: 14px;
+    font-size: 12px;
 }
  #CategoriesTitle
 {
-    height: 70px;
+    height: 50px;
 }
  #CategoriesBox
 {
-    height: 120px;
+    height:180px;
+}
+.CategoryBox
+{
+    width: 16%;
 }
 .fix-home-ca
 {
-    padding: 7px 0px ;
+    padding: 16px 0px ;
 }
  .fix-cafee-ca
 {
-    padding: 7px 0px ;
+    padding:  16px 0px ;
 }
 .fix-shop-ca
 {
-    padding: 7px 0px;
+    padding:  16px 0px;
 }
 /* WebLog */
 #WebLog
@@ -470,5 +490,120 @@
 
 @media (max-width : 640px)
 {
+    #NewstJob h2
+    {
+        font-size: 26px;
+    }
+    #Categories
+    {
+       height:200px ;
+    }
+    #CategoriesBox
+    {
+        height:170px !important;
+    }
+    .CategoryBox
+    {
+        width: 16%;
+    }
+    .JobCard-Text h3
+    {
+        font-size: 10px;
+    } 
+    #CategoriesBox
+    {
+        height: 150px;
+    }
+    .fix-home-ca
+    {
+        padding: 16px 0px ;
+    }
+    #WebLog
+    {
+        height: 400px;
+    }
+    #Request
+    {
+        height:250px;
+    }
+}
 
+@media (max-width : 425px)
+{
+    #Banner
+    {   
+        height: 200px;
+    }
+    #CategoriesBox
+    {
+        height: 140px !important;
+    }
+    .fix-home-ca
+    {
+        padding: 7px 0px ;
+    }
+    .fix-shop-ca
+    {
+        padding:  7px 0px ;
+    }
+    .fix-cafee-ca
+    {
+        padding:  7px 0px ;
+    }  
+}
+
+@media (max-width : 375px)
+{
+    #Banner
+    {   
+        height: 175px;
+    }
+    #CategoriesBox
+    {
+        height: 130px !important;
+    }
+    .CategoryBox
+    {
+        width: 18%;
+    }
+    .fix-home-ca
+    {
+        padding: 10px 0px ;
+    }
+    .fix-shop-ca
+    {
+        padding:  16px 0px ;
+    }
+    .fix-cafee-ca
+    {
+        padding:  10px 0px ;
+    }  
+}
+
+@media (max-width : 320px)
+{
+    #Banner
+    {   
+        height: 150px;
+    }
+    #CategoriesBox
+    {
+        height: 120px !important;
+    }
+    .CategoryBox
+    {
+        width: 20%;
+    }
+    .fix-home-ca
+    {
+        padding: 10px 0px ;
+    }
+    .fix-shop-ca
+    {
+        padding:  10px 0px ;
+    }
+    .fix-cafee-ca
+    {
+        padding:  10px 0px ;
+    }  
 }
