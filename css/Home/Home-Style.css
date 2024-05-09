@@ -1,4 +1,12 @@
 @import url(../Tools/Font.css);
+.CategoryBox
+{
+    width: 8%;
+}
+.swiper-slide
+{
+    width: 80%;
+}
 /* Banner */
 #Banner
 {
@@ -12,6 +20,8 @@
 
 #CategoriesBox
 {
+    direction: rtl;
+    overflow-x:auto;
     height: 250px;
 }
 .fix-home-ca
@@ -106,6 +116,8 @@ font-size: 22px;
 }
 .WebLogBox
 {
+    direction: rtl;
+    overflow-x: auto;
     height: 700px;
 }
 .WebLogBox>div
@@ -131,6 +143,11 @@ font-size: 22px;
 #Request
 {
     height:550px ;
+}
+#RequestBox
+{
+    direction: rtl;
+    overflow-x: auto;
 }
 .RequestCard
 {
@@ -162,6 +179,11 @@ font-size: 22px;
 #Offers 
 {
     height: 700px;
+}
+.OffersBox
+{
+    direction: rtl;
+    overflow-x: auto;
 }
 .OffersTitle 
 {
