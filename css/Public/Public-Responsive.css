@@ -418,3 +418,115 @@ footer li a
 }
 
 }
+
+@media (max-width: 425px)
+{
+    .myContainer
+    {
+        width: 97%!important;
+        margin-left: 1.5%!important;
+        margin-right: 1.5%!important;
+    }
+    #MainHeader
+    {
+        display: none;
+    }
+    #MobileHeader
+    {
+        display: flex;
+        height: 150px;
+    }
+    #MobileLogInOutBox button
+    {
+        height: 60px;
+        width: 60px;
+    }
+    #MobileLogInOutBox img
+    {
+        height: 40px;
+        width: 40px;
+    }
+    /* SearchBox */
+    #SearchBox>div img
+    {
+        height: 25px;
+        width: 25px;
+        margin:0px;
+        padding:0px;
+    }
+    #SearchBox>div p
+    {
+        font-size: 16px;
+        font-weight: 700;
+        margin:0px;
+        padding:0px;
+    }
+    #SearchBox>div input
+    {
+        height: 35px;
+        border-radius : 8px;
+        border: 3px solid;
+    }
+    #SearchBox > a img
+    {
+        width: 16px;
+        height: 16px;
+        margin-left: 5px;
+    }
+    #SearchBox > a
+    {
+        font-size: 10px;
+    } 
+/* Footer */
+footer
+{
+    border-top:1px solid;
+    height: 250px;
+}
+.SocialMedia p
+{
+    font-size: 8px;
+}
+.SocialMedia a
+{
+    font-size: 10px;
+}
+footer li a
+{
+    font-size: 10px;
+}
+.Address
+{
+    font-size: 8px;
+} 
+}
+
+@media (max-width: 375px)
+{
+    #TabBox a
+    {
+        font-size: 12px;
+    } 
+/* Footer */
+footer
+{
+    border-top:1px solid;
+    height: 250px;
+}
+.SocialMedia p
+{
+    font-size: 8px;
+}
+.SocialMedia a
+{
+    font-size: 10px;
+}
+footer li a
+{
+    font-size: 10px;
+}
+.Address
+{
+    font-size: 8px;
+} 
+}
