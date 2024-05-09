@@ -48,6 +48,7 @@
 }
 .CourseContent
 {
+    overflow-y: auto;
     border : 3px solid;
     border-radius: 16px;
     height: 1100px;
@@ -66,4 +67,10 @@
     height: 250px;
     border : 3px solid;
     border-radius : 16px;
+}
+
+#Recommended div
+{
+    direction: rtl;
+    overflow-x: auto;
 }
